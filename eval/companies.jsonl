@@ -1,0 +1,8 @@
+{"company": "Hyatt Hotels Corporation", "website": "hyatt.com", "split": "dev", "fictional": false}
+{"company": "Club Med", "website": "clubmed.com", "split": "dev", "fictional": false}
+{"company": "Four Seasons Hotels and Resorts", "website": "fourseasons.com", "split": "dev", "fictional": false}
+{"company": "Sandals Resorts International", "website": "sandals.com", "split": "dev", "fictional": false}
+{"company": "Seabright Coastal Resorts", "website": "", "split": "dev", "fictional": true}
+{"company": "Alpine Pines Lodge Group", "website": "", "split": "dev", "fictional": true}
+{"company": "Wyndham Hotels & Resorts", "website": "wyndhamhotels.com", "split": "heldout", "fictional": false}
+{"company": "Harbor & Hearth Hotels", "website": "", "split": "heldout", "fictional": true}
