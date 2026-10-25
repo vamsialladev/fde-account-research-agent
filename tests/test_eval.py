@@ -46,6 +46,15 @@ def test_grade_real_and_fictional_companies():
     assert ev.grade(FAKE, out(brief_body=near, markdown=near, fact_lines=2))["fictional_honest"]
     invented = near.replace("- Nothing reliable found.", "- Seabright opened a new spa in March 2026. [3]")
     assert not ev.grade(FAKE, out(brief_body=invented, markdown=invented, fact_lines=3))["fictional_honest"]
+    # Held-out phrasings: honest ("a different kind of business", "separate businesses") vs a pop-up stated as fact.
+    honest_ho = near.replace(
+        "- Nothing reliable found.",
+        "- The one match is a pizza pop-up at a Baltimore hotel, a different kind of business. [3]\n"
+        "- Other results were for similarly named but separate businesses. [4]",
+    )
+    assert ev.grade(FAKE, out(brief_body=honest_ho, markdown=honest_ho, fact_lines=4))["fictional_honest"]
+    popup = near.replace("- Nothing reliable found.", "- Harbor & Hearth, a pizza pop-up, is open weekends. [3]")
+    assert not ev.grade(FAKE, out(brief_body=popup, markdown=popup, fact_lines=3))["fictional_honest"]
     titled = out(markdown="# Brief\n## Sources\n1. [A seamless travel experience](https://ex.test/seamless)")
     assert ev.grade(REAL, titled)["no_hype"]  # a cited page's title is not the agent's words
 
