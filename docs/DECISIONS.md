@@ -112,3 +112,21 @@ Each one: context, decision, tradeoff, result.
   which is borderline: it marks most near matches as other businesses but still presents an undated acquisition by
   "a differently spelled name" as possibly the same company. I didn't widen the pattern again to pass it: a third
   change fitted to held-out output would stop being a check. Numbers: [Results](../README.md#results).
+
+## 10. Example briefs for everyone, live runs behind a code or a small daily cap (2026-10-25)
+- **Context:** every live brief costs 10-15 cents in model calls and paid web search, and the app is public.
+- **Decision:** three real briefs from the saved 2026-10-25 eval run (run 1 of Hyatt, Club Med, Four Seasons, each of
+  which passed every check) are copied unchanged into `data/examples/` and open for free, labelled with their date.
+  A live run needs `DEMO_CODE`, or counts against 3 a day across everyone. `MONTHLY_COST_CAP_USD` stops live runs for
+  the month, read from the durable ops log (Neon) so a restart can't reset it.
+- **Trade-off:** example briefs go stale as companies change; the label says when they were made.
+- **Result:** a visitor sees the product working with no spend; the worst case is the monthly cap.
+
+## 11. Shared guardrails, tracing from the pipeline's own steps, planted instructions removed by the critic (2026-10-25)
+- **Context:** the final plan adds guardrails, a red team, tracing, one ops log and an Admin page to every live app.
+- **Decision:** wire hotel-ai-platform v0.1.3 (`src/research/ops.py`); `pipeline._record` also records each step as a
+  span with its cost; the critic removes planted instructions from findings and drops a finding that's only an
+  instruction. Promise and citation wording checks are off: the agent only reads, and cites findings by ID.
+- **Trade-off:** none of the 538 saved findings matched the planted-instruction patterns, so the check is untested on
+  real pages; it's tested on the red-team cases.
+- **Result:** red team shared 48/48 (four documented overrides); own 11 held-out cases 10/11 on the first run.

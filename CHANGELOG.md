@@ -3,6 +3,18 @@
 All notable changes are listed here. The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 and the project uses [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+
+## [1.1.0] - 2026-10-25
+### Added
+- Three example briefs anyone can open for free (`data/examples/`, copied unchanged from the saved eval run by
+  `scripts/make_examples.py`); live runs need `DEMO_CODE` or are limited to 3 a day; monthly cost cap read from the
+  durable ops log (decision 10).
+- Shared guardrails, tracing and ops log from [hotel-ai-platform](https://github.com/vamsialladev/hotel-ai-platform)
+  v0.1.3 (decision 11): input check on company names and chat questions, every pipeline step a span with its cost,
+  "Reference: ..." on errors, hidden Admin page, JSON startup logs, privacy note, `?source=keepawake` runs nothing.
+- The critic removes planted instructions from findings.
+- Red-team suite in CI (`scripts/run_redteam.py`, docs/RED_TEAM.md) and a CycloneDX SBOM artifact.
+
 ## [1.0.0] - 2026-10-25
 
 ### Added
