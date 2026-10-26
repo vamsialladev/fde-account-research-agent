@@ -1,0 +1,525 @@
+{
+ "company": "Four Seasons Hotels and Resorts",
+ "run": 1,
+ "markdown": "# Discovery-prep brief: Four Seasons Hotels and Resorts\n\nPrepared 2026-10-25 for a first meeting. Every line cites its sources; lines the critic couldn't source were removed. Research by an AI agent from public web pages: check before quoting.\n\n## Snapshot\n\n- Privately held luxury hotel and resort company; majority shareholder is Cascade Investment, L.L.C. (about 71.25%), with Kingdom Holding Company (23.75%) and the Sharp family (5%). [1][2]\n- Headquartered in Toronto, Ontario, Canada. [3]\n- Operates about 135 hotels and resorts and 61 residential properties in 47 countries per its January 2026 65th-anniversary release; older references cite 133 hotels and resorts. [1][8][9][10][12]\n- Reports nearly 60,000 colleagues; third-party trackers report lower figures (about 49,000 to 43,000). [5][6][7]\n- Roughly 60 additional projects are in development, with 65% of the pipeline including a residential component. [8][9][10][11]\n- No reliable public breakdown by region or property type was found, and source counts conflict. [8][11]\n\n## Recent news (last 12 months)\n\n- Robert Fritz named Executive Chairman; Founder Isadore Sharp moves to Chairman Emeritus (date not stated in findings). [12][13]\n- Berlin: Four Seasons agreed with Gruppo Statuto to take over management of Hotel de Rome; it operates as Hotel de Rome through 2026 and is to reopen as Four Seasons Hotel Berlin in 2027 after renovations (2025 press releases). [12][13][14]\n- Sevilla, Spain: new hotel with Blasson announced, opening 2028 (2026). [14]\n- Four Seasons Hotel Mykonos accepting reservations ahead of summer opening (May 2026). [1][12]\n- Development update on October 20, 2026 covering 13 upcoming hotel and resort openings and reopenings across five regions, mostly 2027 and beyond. [8][11]\n- Four Seasons Resort and Residences Puerto Rico opened November 2025; Venice Hotel Danieli is slated to reopen as a Four Seasons. [15]\n- No reliable public reports found of financial or occupancy results, or sales or ownership changes, from October 2025 to October 2026. [1][12]\n\n## What guests say (themes)\n\n- Staff and spa facilities are the most praised aspects, with cleanliness and attentive service often commended, though lapses are mentioned. [16]\n- Recurring complaint that service does not justify the premium price, with reviewers expecting a more elevated experience. [17]\n- Check-in friction reported in more than one city (card declines in New York, a 20-minute check-in in Las Vegas). [18][19]\n- Room and facility age and pool access are mixed points, including untouched bathrooms despite a 2020 renovation and pool waitlists. [17]\n\n## Technology hints\n\n- A 2000s-era announcement says OPERA Property Management System was selected for new properties; no current confirmation found. [20][21]\n- A 2020 release describes a guest app for reservations and airport transfer requests via an on-call concierge. [21]\n- A 2018 trade article says the chat service is staffed by people on property, not bots. [22]\n- A 2018 CIO interview names Adobe for web and digital experience, and says the company uses Salesforce, Workday and Microsoft. [22][23]\n- Vendor case studies (Medallia, Avero) claim Four Seasons uses their platforms; these are vendor marketing claims. [22][23][24]\n- No booking engine or Preferred Partner platform details were found. [20]\n\n## Ten questions for the meeting\n\n1. Which systems do you treat as the system of record for reservations, guest profiles, and folios today, and which of them are run by the corporate team versus each property?\n2. How much of the property management stack is still OPERA, and which hotels, if any, run a different PMS?\n3. Where does check-in actually slow down, and what share of arrivals hit the card-decline or long-wait problems seen in guest reviews?\n4. How do guest feedback signals from Medallia reach property leaders, and how quickly do they lead to a changed action?\n5. What does a service failure cost you today, and who measures whether the premium price is justified at each hotel?\n6. Which parts of the Berlin and Sevilla openings or the 13-property pipeline depend on systems work, and who owns that work?\n7. How are the AI conference-assistant and interpretation tools in Kuala Lumpur being measured, and what would make them roll out to other properties?\n8. How do the AI waste-tracking tools at Papagayo feed into food and cost decisions, and who acts on the data?\n9. Which operational tasks do property teams spend the most hours on that are still manual, such as reconciling data across Adobe, Salesforce, and the PMS?\n10. Which of the systems named in 2018 and 2020 sources have been replaced since, and who in IT or operations could confirm the current stack?\n\n## Three use-case hypotheses (4-check test)\n\n| Use case | Why | Felt | Would pay | Buildable in a week | First user known |\n|---|---|---|---|---|---|\n| Check-in and arrival friction reduction | Guest reviews report card declines and long check-ins in multiple cities, and the company has tested self check-in in Kuala Lumpur. [18][19][25] | Probably | Unknown | Unknown | Unknown |\n| Guest feedback triage and service recovery | Recurring reviews about service versus price suggest feedback is not tied quickly to action; Medallia is already in use, so a layer on top may fit. [17][22][23] | Probably | Unknown | Unknown | Unknown |\n| Kitchen food-waste analytics at buffet properties | A Four Seasons property already uses camera and scale tools for buffet waste, showing the cost problem is recognized. [27] | Probably | Unknown | Unknown | Unknown |\n\n## Outreach email\n\n> Hello,\n>\n> I would like to learn how Four Seasons approaches guest-facing operations and the systems behind them. Would you be open to a 30-minute discovery call in the coming weeks? I would like to hear which processes take the most effort today and where the current tools fall short.\n>\n> If useful, I can send a few specific questions in advance so the time is well spent.\n>\n> Thank you,\n> Vamsi\n\n## Sources\n\n1. [Four Seasons Marks 65 Years with a Clear Vision for Long-Term Growth](https://press.fourseasons.com/news-releases/2026/strategic-growth-and-expansion/) · quote on page: found\n2. [Who Owns Four Seasons? The Shareholders and Their Stakes - LegalClarity](https://legalclarity.org/who-owns-four-seasons-the-shareholders-and-their-stakes/) · quote on page: found\n3. [Four Seasons Hotels and Resorts](https://en.wikipedia.org/wiki/Four_Seasons_Hotels_and_Resorts) · quote on page: found\n4. [Who owns Four Seasons? Owners, stakes and history — StarsDesk: Exclusive VIP Travel & Hotel Deals](https://www.starsdesk.com/blog/who-owns-four-seasons-inside-the-story-of-the-worlds-most-prestigious-luxury-hotel-brand) · quote on page: found\n5. [Four Seasons Celebrates Continued Leadership in 2026 Forbes Travel Guide Awards](https://press.fourseasons.com/news-releases/2026/forbes-five-star-hotels-resorts-spas-restaurants/) · quote on page: found\n6. [Four Seasons Hotels Number of Employees 2026](https://www.reveliolabs.com/companies/four-seasons-hotels/employees) · quote on page: found\n7. [Four Seasons - Headcount, Funding & Open Jobs](https://profiles.crustdata.com/company/four-seasons-hotels-and-resorts) · quote on page: unreachable\n8. [Four Seasons Marks 65 Years with a Clear Vision for Long-Term Growth](https://www.prnewswire.com/news-releases/four-seasons-marks-65-years-with-a-clear-vision-for-long-term-growth-302671448.html) · quote on page: found\n9. [Four Seasons to operate 180 properties by 2033 - News](https://www.aspiretravelclub.co.uk/news/four-seasons-to-operate-180-properties-by-2033) · quote on page: found\n10. [Four Seasons sets sail into 2026 with a clear vision for long-term growth • Hotel Designs](https://hoteldesigns.net/industry-news/four-seasons-sets-sail-into-2026-with-a-clear-vision-for-long-term-growth/) · quote on page: found\n11. [Four Seasons Reveals 13 New Hotels and Reopenings for 2027 and Beyond](https://www.rustourismnews.com/2026/10/21/four-seasons-reveals-13-new-hotels-and-reopenings-for-2027-and-beyond/) · quote on page: found\n12. [Four Seasons Hotels and Resorts Press Releases](https://www.newswire.ca/news/four-seasons-hotels-and-resorts/) · quote on page: found\n13. [Four Seasons Announces Highly Anticipated Opening in Germany with Luxury Hotel in Berlin](https://press.fourseasons.com/news-releases/2025/new-four-seasons-in-berlin/) · quote on page: found\n14. [Four Seasons and Blasson to Expand in Spain with New Hotel in Sevilla’s Plaza Nueva](https://press.fourseasons.com/news-releases/2026/new-four-seasons-in-sevilla/) · quote on page: found\n15. [New Four Seasons Hotels: Recent & Upcoming Openings](https://hotelsforkings.com/best/new-four-seasons-hotels-openings/) · quote on page: not found\n16. [FOUR SEASONS HOTEL SEOUL - Updated 2026 Reviews (South Korea)](https://www.tripadvisor.com/Hotel_Review-g294197-d8587847-Reviews-Four_Seasons_Hotel_Seoul-Seoul.html) · quote on page: unreachable\n17. [FOUR SEASONS HOTEL DENVER - Updated 2026 Reviews (CO)](https://www.tripadvisor.com/Hotel_Review-g33388-d1845691-Reviews-Four_Seasons_Hotel_Denver-Denver_Colorado.html) · quote on page: unreachable\n18. [FOUR SEASONS HOTEL NEW YORK - 2026 Reviews (New York City)](https://www.tripadvisor.com/Hotel_Review-g60763-d113298-Reviews-Four_Seasons_Hotel_New_York-New_York_City_New_York.html) · quote on page: unreachable\n19. [Extremely poor customer service - Review of Four Seasons Hotel Las Vegas, Las Vegas, NV - Tripadvisor](https://www.tripadvisor.com/ShowUserReviews-g45963-d91674-r839837669-Four_Seasons_Hotel_Las_Vegas-Las_Vegas_Nevada.html) · quote on page: unreachable\n20. [MICROS Completes Global Deployment of Four Seasons Hotels and Resorts Central Reservation and Customer Information Systems; Begins Global Deployment of OPERA Property Management System - Hospitality Net](https://www.hospitalitynet.org/news/4011864/micros-completes-global-deployment-of-four-seasons-hotels-and-resorts-central-reservation-and-customer-information-systems-begins-global-deployment-of-opera-property-management-system) · quote on page: found\n21. [How technology is making hotels safer without losing personalised service: Four Seasons Chat App](https://www.hospitalitynet.org/news/4099105.html) · quote on page: found\n22. [Transformative Tech on a Global Scale](https://hospitalitytech.com/transformative-tech-global-scale) · quote on page: unreachable\n23. [Continually (Re)inventing the Standards of Customer Experience](https://www.medallia.com/wp-content/uploads/pdf/resources/Medallia-Four-Seasons-Case-Study.pdf) · quote on page: not found\n24. [Four Seasons Case Study - Avero](https://averoinc.com/restaurant-revenue-management/) · quote on page: found\n25. [Four Seasons Hotel Kuala Lumpur Launches AI Technologies for Meetings and Events](https://www.hotelnewsresource.com/article140873.html) · quote on page: found\n26. [Amplifying Human Connection Through Technology: Four Seasons Hotel Kuala Lumpur Introduces AI-Enhanced Experiences for Meetings, Events and Weddings](https://press.fourseasons.com/kualalumpur/hotel-news/2026/ai-capabilities/) · quote on page: found\n27. [AI-First Hotels: Faster to Build, Leaner to Operate, and Richer in Customer Experience](https://www.bcg.com/publications/2026/ai-first-hotels-leaner-faster-smarter) · quote on page: found\n\n## How this brief was checked\n\n- Findings kept: 33; removed for having no source: 22; brief lines dropped for citing nothing: 0.\n- Cited quotes found on their page: 29 of 32 checked; not fetched because robots.txt disallows it: 0.\n- News older than 12 months flagged: 0. Topics with no reliable public information: technology.\n- Cost 0.141 USD (12 web searches, 8 model calls), 82 s.\n",
+ "findings": [
+  {
+   "id": "F1",
+   "topic": "overview",
+   "claim": "Ownership and status: The company's own 2026 press release says it is privately held, with Cascade Investment as majority shareholder alongside Kingdom Holding and founder Isadore Sharp Privately held by majority shareholder Cascade Investment, L.L.C., along with Kingdom Holding Company and Four Seasons Founder and Chairman Isadore Sharp.",
+   "sources": [
+    {
+     "url": "https://press.fourseasons.com/news-releases/2026/strategic-growth-and-expansion/",
+     "title": "Four Seasons Marks 65 Years with a Clear Vision for Long-Term Growth",
+     "cited_text": "As we look ahead, we remain focused on growing with intention, protecting what makes Four Seasons special, while continuing to introduce exceptional p...",
+     "verified": "found"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "F2",
+   "topic": "overview",
+   "claim": "A 2026 summary gives the split as Cascade Investment... owns a controlling 71.25% stake...",
+   "sources": [
+    {
+     "url": "https://legalclarity.org/who-owns-four-seasons-the-shareholders-and-their-stakes/",
+     "title": "Who Owns Four Seasons? The Shareholders and Their Stakes - LegalClarity",
+     "cited_text": "Published Jun 14, 2026\n\nCascade Investment, the private investment vehicle of Bill Gates, owns a controlling 71.25% stake in Four Seasons Hotels and R...",
+     "verified": "found"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "F3",
+   "topic": "overview",
+   "claim": "Kingdom Holding Company... at 23.75% and the founding Sharp family at 5%.",
+   "sources": [
+    {
+     "url": "https://legalclarity.org/who-owns-four-seasons-the-shareholders-and-their-stakes/",
+     "title": "Who Owns Four Seasons? The Shareholders and Their Stakes - LegalClarity",
+     "cited_text": "Published Jun 14, 2026\n\nCascade Investment, the private investment vehicle of Bill Gates, owns a controlling 71.25% stake in Four Seasons Hotels and R...",
+     "verified": "found"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "F4",
+   "topic": "overview",
+   "claim": "Cascade's 2021 purchase of part of Kingdom's stake is pushing its ownership to 71.25% and making it the clear majority shareholder.",
+   "sources": [
+    {
+     "url": "https://legalclarity.org/who-owns-four-seasons-the-shareholders-and-their-stakes/",
+     "title": "Who Owns Four Seasons? The Shareholders and Their Stakes - LegalClarity",
+     "cited_text": "In 2021, Cascade purchased half of Kingdom Holding Company’s matching 47.5% interest for $2.21 billion in cash, pushing its ownership to 71.25% and ma...",
+     "verified": "found"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "F5",
+   "topic": "overview",
+   "claim": "Headquarters: Toronto, Ontario is the consistent answer across sources; one profile describes the company as a Canadian luxury hotel and resort company headquartered in Toronto, Ontario, Canada.",
+   "sources": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Four_Seasons_Hotels_and_Resorts",
+     "title": "Four Seasons Hotels and Resorts",
+     "cited_text": "Four Seasons Hotels Limited\n- Trade name: Four Seasons Hotels and Resorts\n- Type: Private\n- Industry: Hospitality\n- Founded: 21 March 1961; 65 years a...",
+     "verified": "found"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "F6",
+   "topic": "overview",
+   "claim": "One reference lists 133 hotels and resorts and 55 residential properties in 47 countries, while a 2026 summary says more than 130 hotels and resorts in 47 countries.",
+   "sources": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Four_Seasons_Hotels_and_Resorts",
+     "title": "Four Seasons Hotels and Resorts",
+     "cited_text": "Four Seasons Hotels Limited\n- Trade name: Four Seasons Hotels and Resorts\n- Type: Private\n- Industry: Hospitality\n- Founded: 21 March 1961; 65 years a...",
+     "verified": "found"
+    },
+    {
+     "url": "https://www.starsdesk.com/blog/who-owns-four-seasons-inside-the-story-of-the-worlds-most-prestigious-luxury-hotel-brand",
+     "title": "Who owns Four Seasons? Owners, stakes and history — StarsDesk: Exclusive VIP Travel & Hotel Deals",
+     "cited_text": "Portfolio: more than 130 hotels and resorts in 47 countries.\n\n  \n",
+     "verified": "found"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "F7",
+   "topic": "overview",
+   "claim": "Size (employees): The company's 2026 press release says nearly 60,000 colleagues.",
+   "sources": [
+    {
+     "url": "https://press.fourseasons.com/news-releases/2026/forbes-five-star-hotels-resorts-spas-restaurants/",
+     "title": "Four Seasons Celebrates Continued Leadership in 2026 Forbes Travel Guide Awards",
+     "cited_text": "With nearly 60,000 colleagues guided by an enduring culture of service, the brand’s greatest competitive advantage remains its people, who uphold cons...",
+     "verified": "found"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "F8",
+   "topic": "overview",
+   "claim": "Third-party trackers report lower figures, such as approximately 49,097 total employees worldwide as of March 2026, and 43,458 employees, with 6.9% year-over-year growth.",
+   "sources": [
+    {
+     "url": "https://www.reveliolabs.com/companies/four-seasons-hotels/employees",
+     "title": "Four Seasons Hotels Number of Employees 2026",
+     "cited_text": "Four Seasons Hotels Ltd. has approximately 49,097 total employees worldwide as of March 2026, according to Revelio Labs workforce intelligence data. ",
+     "verified": "found"
+    },
+    {
+     "url": "https://profiles.crustdata.com/company/four-seasons-hotels-and-resorts",
+     "title": "Four Seasons - Headcount, Funding & Open Jobs",
+     "cited_text": "Four Seasons has 43,458 employees, with 6.9% year-over-year growth.\n\n",
+     "verified": "unreachable"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "F9",
+   "topic": "properties",
+   "claim": "Sources conflict on the counts, and I could not find a reliable breakdown by region or by property type. Open count: In its 2026 65th-anniversary release, Four Seasons currently operates 135 hotels and resorts and 61 residential properties in major city centres and resort destinations in 47 countries.",
+   "sources": [
+    {
+     "url": "https://www.prnewswire.com/news-releases/four-seasons-marks-65-years-with-a-clear-vision-for-long-term-growth-302671448.html",
+     "title": "Four Seasons Marks 65 Years with a Clear Vision for Long-Term Growth",
+     "cited_text": "Four Seasons currently operates 135 hotels and resorts and 61 residential properties in major city centres and resort destinations in 47 countries.",
+     "verified": "found"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "F10",
+   "topic": "properties",
+   "claim": "Older figures differ: one 2025-era report cites 133 properties across 47 countries, and Wikipedia lists 133 hotels and resorts and 55 residential properties. Pipeline: The company says approximately 60 additional projects at various stages of development are underway.",
+   "sources": [
+    {
+     "url": "https://www.aspiretravelclub.co.uk/news/four-seasons-to-operate-180-properties-by-2033",
+     "title": "Four Seasons to operate 180 properties by 2033 - News",
+     "cited_text": "The brand currently operates 133 properties across 47 countries and has a pipeline of more than 60 projects.\n\n",
+     "verified": "found"
+    },
+    {
+     "url": "https://hoteldesigns.net/industry-news/four-seasons-sets-sail-into-2026-with-a-clear-vision-for-long-term-growth/",
+     "title": "Four Seasons sets sail into 2026 with a clear vision for long-term growth • Hotel Designs",
+     "cited_text": "• The Americas: Building on the success of 2025 openings– including Naples Beach Club, A Four Seasons Resort and Four Seasons Resort and Residences Pu...",
+     "verified": "found"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "F11",
+   "topic": "properties",
+   "claim": "65% of its development pipeline includes a residential component. Regional pipeline: On October 20, 2026, Four Seasons released a development update covering 13 upcoming hotel and resort openings and reopenings across Europe, the Americas, Africa, the Middle East and Asia.",
+   "sources": [
+    {
+     "url": "https://www.prnewswire.com/news-releases/four-seasons-marks-65-years-with-a-clear-vision-for-long-term-growth-302671448.html",
+     "title": "Four Seasons Marks 65 Years with a Clear Vision for Long-Term Growth",
+     "cited_text": "The company now manages 61 residential properties in 20 countries, and 65% of its development pipeline includes a residential component. ",
+     "verified": "found"
+    },
+    {
+     "url": "https://www.rustourismnews.com/2026/10/21/four-seasons-reveals-13-new-hotels-and-reopenings-for-2027-and-beyond/",
+     "title": "Four Seasons Reveals 13 New Hotels and Reopenings for 2027 and Beyond",
+     "cited_text": "# Four Seasons Reveals 13 New Hotels and Reopenings for 2027 and Beyond\nFour Seasons has revealed its plans for 2027 and beyond, highlighting 13 upcom...",
+     "verified": "found"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "F12",
+   "topic": "properties",
+   "claim": "The update covers projects expected in 2027 and beyond, rather than confirming that every hotel will open during the same year. Not found: I found no reliable source giving a country-by-country list of open properties, or a resort, city-hotel, and residence split.",
+   "sources": [
+    {
+     "url": "https://www.rustourismnews.com/2026/10/21/four-seasons-reveals-13-new-hotels-and-reopenings-for-2027-and-beyond/",
+     "title": "Four Seasons Reveals 13 New Hotels and Reopenings for 2027 and Beyond",
+     "cited_text": "## What Travelers Should Know About Four Seasons Openings in 2027\nWhile Four Seasons has included all 13 properties in its latest development outlook,...",
+     "verified": "found"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "F13",
+   "topic": "recent_news",
+   "claim": "Four Seasons today named Robert Fritz Executive Chairman.",
+   "sources": [
+    {
+     "url": "https://www.newswire.ca/news/four-seasons-hotels-and-resorts/",
+     "title": "Four Seasons Hotels and Resorts Press Releases",
+     "cited_text": "Four Seasons announces the first of its 2028 Private Jet Experience journeys with the return of Uncharted ...\n\n## Latest\nFour Seasons Appoints Robert ...",
+     "verified": "found"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "F14",
+   "topic": "recent_news",
+   "claim": "Four Seasons Founder and Chairman Isadore Sharp will assume the role of Chairman Emeritus. Management deal (Berlin): Four Seasons agreed with Gruppo Statuto to take over management of Berlin's Hotel de Rome, which will operate as Hotel de Rome through 2026, managed by Gruppo Statuto.",
+   "sources": [
+    {
+     "url": "https://www.newswire.ca/news/four-seasons-hotels-and-resorts/",
+     "title": "Four Seasons Hotels and Resorts Press Releases",
+     "cited_text": "Four Seasons announces the first of its 2028 Private Jet Experience journeys with the return of Uncharted ...\n\n## Latest\nFour Seasons Appoints Robert ...",
+     "verified": "found"
+    },
+    {
+     "url": "https://press.fourseasons.com/news-releases/2025/new-four-seasons-in-berlin/",
+     "title": "Four Seasons Announces Highly Anticipated Opening in Germany with Luxury Hotel in Berlin",
+     "cited_text": "# Four Seasons Announces Highly Anticipated Opening in Germany with Luxury Hotel in Berlin\nIn partnership with Gruppo Statuto, Four Seasons to assume ...",
+     "verified": "found"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "F15",
+   "topic": "recent_news",
+   "claim": "Renovations will take place before reopening as Four Seasons Hotel Berlin in 2027.",
+   "sources": [
+    {
+     "url": "https://press.fourseasons.com/news-releases/2025/new-four-seasons-in-berlin/",
+     "title": "Four Seasons Announces Highly Anticipated Opening in Germany with Luxury Hotel in Berlin",
+     "cited_text": "# Four Seasons Announces Highly Anticipated Opening in Germany with Luxury Hotel in Berlin\nIn partnership with Gruppo Statuto, Four Seasons to assume ...",
+     "verified": "found"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "F16",
+   "topic": "recent_news",
+   "claim": "The announcement appears in the company's 2025 press releases. New hotel deal (Spain, 2026): Four Seasons and Blasson announced a new hotel in Sevilla, with opening in 2028.",
+   "sources": [
+    {
+     "url": "https://press.fourseasons.com/news-releases/2026/new-four-seasons-in-sevilla/",
+     "title": "Four Seasons and Blasson to Expand in Spain with New Hotel in Sevilla’s Plaza Nueva",
+     "cited_text": "Opening in 2028, the Hotel will introduce Four Seasons legendary service in one of Spain’s most historic cities.\n\n",
+     "verified": "found"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "F17",
+   "topic": "recent_news",
+   "claim": "The release is in the company's 2026 press releases, and the press page does not give a day or month. Openings: The Venice Hotel Danieli is slated to reopen as a Four Seasons, and the newest Four Seasons is Four Seasons Resort and Residences Puerto Rico, open since November 2025.",
+   "sources": [
+    {
+     "url": "https://hotelsforkings.com/best/new-four-seasons-hotels-openings/",
+     "title": "New Four Seasons Hotels: Recent & Upcoming Openings",
+     "cited_text": "# New Four Seasons Hotels: Recent & Upcoming Openings\n**The short answer:** the newest Four Seasons is **Four Seasons Resort and Residences Puerto Ric...",
+     "verified": "not found"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "F18",
+   "topic": "recent_news",
+   "claim": "In May 2026, the new Four Seasons Hotel Mykonos was now accepting reservations ahead of its summer opening. Portfolio size (January 2026): In its 65th-anniversary release of January 27, 2026, the company said it operates 135 hotels and resorts and 61 residences in 47 countries around the globe. Not found: I found no reliable public reports of financial or occupancy results, or of sales or ownership changes, for October 2025 to October 2026.",
+   "sources": [
+    {
+     "url": "https://www.newswire.ca/news/four-seasons-hotels-and-resorts/",
+     "title": "Four Seasons Hotels and Resorts Press Releases",
+     "cited_text": "A long-time executive with Cascade Investment, the ...\n\nA World That Calls You Closer: 2028 Four Seasons Private Jet Experience Journeys Connect Trave...",
+     "verified": "not found"
+    },
+    {
+     "url": "https://press.fourseasons.com/news-releases/2026/strategic-growth-and-expansion/",
+     "title": "Four Seasons Marks 65 Years with a Clear Vision for Long-Term Growth",
+     "cited_text": "**Strategic Expansion Across Key Markets**\n\nFour Seasons now operates 135 hotels and resorts and 61 residences in 47 countries around the globe. \n\n",
+     "verified": "found"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "F19",
+   "topic": "guest_feedback",
+   "claim": "Staff and spa facilities draw the most praise. Reviewers of the Seoul property single out the team and the gym and spa, with guests frequently commending the immaculate cleanliness and attentive service, though some mention lapses in these areas.",
+   "sources": [
+    {
+     "url": "https://www.tripadvisor.com/Hotel_Review-g294197-d8587847-Reviews-Four_Seasons_Hotel_Seoul-Seoul.html",
+     "title": "FOUR SEASONS HOTEL SEOUL - Updated 2026 Reviews (South Korea)",
+     "cited_text": "Guests frequently commend the immaculate cleanliness and attentive service, though some mention lapses in these areas. ",
+     "verified": "unreachable"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "F20",
+   "topic": "guest_feedback",
+   "claim": "Price-to-service mismatch is a recurring complaint. A Denver reviewer felt the service wasn't the level of hospitality that justifies Four Seasons pricing.",
+   "sources": [
+    {
+     "url": "https://www.tripadvisor.com/Hotel_Review-g33388-d1845691-Reviews-Four_Seasons_Hotel_Denver-Denver_Colorado.html",
+     "title": "FOUR SEASONS HOTEL DENVER - Updated 2026 Reviews (CO)",
+     "cited_text": "It wasn't bad, but it certainly wasn't the level of hospitality that justifies Four Seasons pricing. \n\n",
+     "verified": "unreachable"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "F21",
+   "topic": "guest_feedback",
+   "claim": "Another Denver reviewer said that at two to three times the cost of many excellent luxury hotels they expected a noticeably elevated experience.",
+   "sources": [
+    {
+     "url": "https://www.tripadvisor.com/Hotel_Review-g33388-d1845691-Reviews-Four_Seasons_Hotel_Denver-Denver_Colorado.html",
+     "title": "FOUR SEASONS HOTEL DENVER - Updated 2026 Reviews (CO)",
+     "cited_text": "At two to three times the cost of many excellent luxury hotels—including brands like InterContinental—I expected a noticeably elevated experience. ",
+     "verified": "unreachable"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "F22",
+   "topic": "guest_feedback",
+   "claim": "Check-in friction appears in more than one city. A New York guest reported that a perfectly functional bank card was repeatedly declined during check in, and a Las Vegas guest said check in took us 20 minutes.",
+   "sources": [
+    {
+     "url": "https://www.tripadvisor.com/Hotel_Review-g60763-d113298-Reviews-Four_Seasons_Hotel_New_York-New_York_City_New_York.html",
+     "title": "FOUR SEASONS HOTEL NEW YORK - 2026 Reviews (New York City)",
+     "cited_text": "### 15,000 for Two Nights, Yet No Flexibility at Check in\nExtremely disappointing check-in experience at a supposedly luxury hotel My perfectly functi...",
+     "verified": "unreachable"
+    },
+    {
+     "url": "https://www.tripadvisor.com/ShowUserReviews-g45963-d91674-r839837669-Four_Seasons_Hotel_Las_Vegas-Las_Vegas_Nevada.html",
+     "title": "Extremely poor customer service - Review of Four Seasons Hotel Las Vegas, Las Vegas, NV - Tripadvisor",
+     "cited_text": "Check in took us 20 minutes and on our leave we were queuing for check out because nobody provided us with the bill beforehands as it is usual in 5sta...",
+     "verified": "unreachable"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "F23",
+   "topic": "guest_feedback",
+   "claim": "Room and facility age and access are mixed points. A Denver reviewer noted that the guest room bathrooms were largely left untouched despite a 2020 renovation, and other Denver guests described a waiting list for pool access.",
+   "sources": [
+    {
+     "url": "https://www.tripadvisor.com/Hotel_Review-g33388-d1845691-Reviews-Four_Seasons_Hotel_Denver-Denver_Colorado.html",
+     "title": "FOUR SEASONS HOTEL DENVER - Updated 2026 Reviews (CO)",
+     "cited_text": "While I appreciate the renovation completed in 2020, it is clear that the guest room bathrooms were largely left untouched. ",
+     "verified": "unreachable"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "F24",
+   "topic": "technology",
+   "claim": "My search did not surface any booking engine or Four Seasons Preferred Partner platform details. Property management system: A 2000s-era MICROS announcement says the OPERA Property Management System has been selected as the property technology solution for all new Four Seasons properties.",
+   "sources": [
+    {
+     "url": "https://www.hospitalitynet.org/news/4011864/micros-completes-global-deployment-of-four-seasons-hotels-and-resorts-central-reservation-and-customer-information-systems-begins-global-deployment-of-opera-property-management-system",
+     "title": "MICROS Completes Global Deployment of Four Seasons Hotels and Resorts Central Reservation and Customer Information Systems; Begins Global Deployment of OPERA Property Management System - Hospitality Net",
+     "cited_text": "The OPERA Property Management System has been selected as the property technology solution for all new Four Seasons properties. ",
+     "verified": "found"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "F25",
+   "topic": "technology",
+   "claim": "This is old, and I found no current PMS confirmation. Guest app and messaging: A 2020 Four Seasons release describes its app as connecting guests with every Four Seasons hotel, with guests able to make and manage reservations or request airport transfers through an on-call concierge.",
+   "sources": [
+    {
+     "url": "https://www.hospitalitynet.org/news/4099105.html",
+     "title": "How technology is making hotels safer without losing personalised service: Four Seasons Chat App",
+     "cited_text": "- As well as having the ability to make and manage reservations or request airport transfers and luggage pickups, guests can customise their stay exac...",
+     "verified": "found"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "F26",
+   "topic": "technology",
+   "claim": "A 2018 trade article says the chat service is managed by actual people — Four Seasons employees on property - not bots. Enterprise and digital vendors: A 2018 interview with the company's CIO says Four Seasons has leveraged Adobe as the platform for the web, and it drives digital experience.",
+   "sources": [
+    {
+     "url": "https://hospitalitytech.com/transformative-tech-global-scale",
+     "title": "Transformative Tech on a Global Scale",
+     "cited_text": "The chat app is managed by actual people — Four Seasons employees on property - not bots. ",
+     "verified": "unreachable"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "F27",
+   "topic": "technology",
+   "claim": "We also use enterprise SaaS platforms like Salesforce, Workday and Microsoft. Vendor case studies: Medallia says a partner for six years, Four Seasons relies on Medallia's platform to manage experiences across all properties.",
+   "sources": [
+    {
+     "url": "https://hospitalitytech.com/transformative-tech-global-scale",
+     "title": "Transformative Tech on a Global Scale",
+     "cited_text": "TRECROCE: We have leveraged Adobe as the platform for the web, and it drives digital experience. We also use enterprise SaaS platforms like Salesforce...",
+     "verified": "unreachable"
+    },
+    {
+     "url": "https://www.medallia.com/wp-content/uploads/pdf/resources/Medallia-Four-Seasons-Case-Study.pdf",
+     "title": "Continually (Re)inventing the Standards of Customer Experience",
+     "cited_text": "A partner for six years, Four Seasons relies on Medallia’s. platform to manage experiences across all properties.\n\n",
+     "verified": "not found"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "F28",
+   "topic": "technology",
+   "claim": "Avero's case study features a Four Seasons EMEA executive saying \"Avero has allowed our operators to make smarter, data driven decisions.\" Notes on sources: The Medallia case study and the Avero page are vendor marketing, so their claims are the vendors' own. A third-party job-listing page lists Four Seasons' IT stack as including a front-office property management system, but it gives no vendor name. A 2026 result about a Chinese company's \"property management system\" (E-Home) and Four Seasons Hotel Suzhou is a different business in a different industry, so I excluded it. The Salesforce-based guest management tool in a designer's portfolio is unverified, so I did not rely on it.",
+   "sources": [
+    {
+     "url": "https://averoinc.com/restaurant-revenue-management/",
+     "title": "Four Seasons Case Study - Avero",
+     "cited_text": "“Avero has allowed our operators to make smarter, data driven decisions.”\n\n",
+     "verified": "found"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "F29",
+   "topic": "ai_opportunities",
+   "claim": "Four Seasons Hotel Kuala Lumpur launched optional AI tools for meetings, events and weddings in April 2026, including a conference assistant for self check-in and seat allocation (Four Seasons Hotel Kuala Lumpur has introduced a suite of artificial intelligence technologies as optional enhancements for meetings, events, and weddings.",
+   "sources": [
+    {
+     "url": "https://www.hotelnewsresource.com/article140873.html",
+     "title": "Four Seasons Hotel Kuala Lumpur Launches AI Technologies for Meetings and Events",
+     "cited_text": "In Brief: Four Seasons Hotel Kuala Lumpur has introduced a suite of artificial intelligence technologies as optional enhancements for meetings, events...",
+     "verified": "found"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "F30",
+   "topic": "ai_opportunities",
+   "claim": "The AI-powered conference assistant streamlines self check-in and seat allocation for arriving guests.).",
+   "sources": [
+    {
+     "url": "https://www.hotelnewsresource.com/article140873.html",
+     "title": "Four Seasons Hotel Kuala Lumpur Launches AI Technologies for Meetings and Events",
+     "cited_text": "In Brief: Four Seasons Hotel Kuala Lumpur has introduced a suite of artificial intelligence technologies as optional enhancements for meetings, events...",
+     "verified": "found"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "F31",
+   "topic": "ai_opportunities",
+   "claim": "The same property offers real-time interpretation across more than 40 languages (A real-time interpretation system is available via personal devices and LED displays, providing translation across more than 40 major languages.).",
+   "sources": [
+    {
+     "url": "https://www.hotelnewsresource.com/article140873.html",
+     "title": "Four Seasons Hotel Kuala Lumpur Launches AI Technologies for Meetings and Events",
+     "cited_text": "A real-time interpretation system is available via personal devices and LED displays, providing translation across more than 40 major languages. ",
+     "verified": "found"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "F32",
+   "topic": "ai_opportunities",
+   "claim": "Four Seasons' own press release describes these tools as aimed at refining the human touch rather than replacing it (Offered as an optional enhancement, these AI technologies aim to refine, rather than replace, the human touch, marking a thoughtful evolution of hospitality.).",
+   "sources": [
+    {
+     "url": "https://press.fourseasons.com/kualalumpur/hotel-news/2026/ai-capabilities/",
+     "title": "Amplifying Human Connection Through Technology: Four Seasons Hotel Kuala Lumpur Introduces AI-Enhanced Experiences for Meetings, Events and Weddings",
+     "cited_text": "Offered as an optional enhancement, these AI technologies aim to refine, rather than replace, the human touch, marking a thoughtful evolution of hospi...",
+     "verified": "found"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "F33",
+   "topic": "ai_opportunities",
+   "claim": "Four Seasons Peninsula Papagayo uses AI waste-tracking tools that combine cameras and scales to monitor buffet leftovers (Four Seasons Peninsula Papagayo, for instance, is using AI waste-tracking tools like Winnow—combining cameras and scales to monitor buffet leftovers and feeding real-time analytics back to the kitchen.).",
+   "sources": [
+    {
+     "url": "https://www.bcg.com/publications/2026/ai-first-hotels-leaner-faster-smarter",
+     "title": "AI-First Hotels: Faster to Build, Leaner to Operate, and Richer in Customer Experience",
+     "cited_text": "Four Seasons Peninsula Papagayo, for instance, is using AI waste-tracking tools like Winnow—combining cameras and scales to monitor buffet leftovers a...",
+     "verified": "found"
+    }
+   ],
+   "flags": []
+  }
+ ],
+ "quotes_found": 29,
+ "quotes_checked": 32,
+ "coverage": 0.6,
+ "seconds": 81.9,
+ "tokens_in": 141538,
+ "tokens_out": 13017,
+ "searches": 12,
+ "source": "eval/reports/research-2026-10-25-dev.jsonl (run 1)"
+}

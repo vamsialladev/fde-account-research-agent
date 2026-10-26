@@ -1,0 +1,483 @@
+{
+ "company": "Hyatt Hotels Corporation",
+ "run": 1,
+ "markdown": "# Discovery-prep brief: Hyatt Hotels Corporation\n\nPrepared 2026-10-25 for a first meeting. Every line cites its sources; lines the critic couldn't source were removed. Research by an AI agent from public web pages: check before quoting.\n\n## Snapshot\n\n- Hyatt Hotels Corporation (NYSE: H, Class A) is a hotel company operating 1,528 properties and 372,763 rooms across 83 countries as of December 31, 2025. [1][5]\n- About 242,000 colleagues work across corporate, regional offices, and managed, franchised, owned, and leased properties; about 50,000 are directly employed by Hyatt. [2]\n- The Luxury Portfolio includes Park Hyatt, Alila, Miraval, Impression by Secrets, and The Unbound Collection by Hyatt; a September 2025 release put it at nearly 125 hotels and more than 21,000 rooms. [3][9]\n- Hyatt Hotels & Resorts is one of the businesses managed by the Pritzker family. [5]\n- Playa rooms were removed from Hyatt's room count in the second half of 2025, so older Playa-based figures will not match current totals. [10]\n\n## Recent news (last 12 months)\n\n- Hyatt completed the $2 billion sale of the Playa Hotels & Resorts real estate portfolio (reported by Hotel Dive on January 5, 2026). [11]\n- In December 2025, Hyatt sold its remaining 14 Playa properties to Tortuga Resorts and entered 50-year management agreements with Tortuga for 13 of the 14. [6][12][13][14][15]\n- Hyatt reported a record pipeline of about 148,000 rooms as of year-end 2025 (announced January 26, 2026). [6][12][13][14][15]\n- On May 28, 2026, Hyatt announced a $1 billion increase in share repurchase authorization and an illustrative financial outlook through 2028. [6][12][13][14][15]\n- In Q2 2026 results (July 2026), the sale of Hyatt Grand Central New York was no longer expected to close in 2026, and Distribution adjusted EBITDA fell on temporary factors including Hurricane Melissa closures in Jamaica and softer 4-star demand in Mexico. [6][12][13][14][15]\n- Hyatt will release third quarter 2026 results on October 29, 2026, which may change the picture shortly after the meeting. [6][12][13][14][15]\n\n## What guests say (themes)\n\n- Service inconsistency: guests report unhelpful, dismissive staff when complaints are raised, and a luxury environment with weak service makes the contrast the complaint. [16][17]\n- Cleanliness and maintenance vary by property, with reports of stains, mold, musty odors, and severe in-room maintenance problems. [16][17][18][19]\n- Value and fees are the most criticized area: high prices relative to the experience, unexpected charges, and hidden fees. [16][17][20][21]\n- Location and amenities are frequent strengths, though pools and gyms are sometimes criticized. [18][19][20]\n- Loyalty benefits are mixed; dynamic pricing and add-on charges can feel transactional, and some members feel let down. [17][21][22]\n\n## Technology hints\n\n- Property management system: Oracle OPERA Cloud was selected in September 2024 for more than 1,000 properties, migrating from on-premise Opera V5. [23]\n- Central reservations: a trade article reports a deal with Sabre to adopt the SynXis CRS as its main CRS. [24]\n- Digital engagement: a redesigned World of Hyatt mobile app (iOS and Android, loyalty members only) with Bluetooth digital keys. [25][26]\n- Guest messaging: Medallia Zingle-powered intelligent messaging is being deployed across the portfolio. [26]\n- Experiences integration: Way's platform and APIs integrate into Hyatt.com, the app, property websites, and FIND Experiences. [27]\n- AI in use: proprietary AI values group business and an AI platform surfaces signals for hotel teams; generative AI powers search by personal intent. [28][29][30]\n\n## Ten questions for the meeting\n\n1. Which operational system of record does each property team use day to day, and how does OPERA Cloud integrate with the SynXis CRS and the loyalty platform?\n2. How is the migration from Opera V5 to OPERA Cloud progressing across the more than 1,000 properties, and which properties are still on the old system?\n3. Which teams own the AI signal platform that surfaces opportunities for hotel teams, and how do they measure whether a signal led to action?\n4. How do guest complaints get logged, routed, and closed today, and which system holds that record?\n5. Where do the service complaints about unhelpful staff originate: front desk, housekeeping, food and beverage, or guest messaging?\n6. How are maintenance requests raised and tracked at property level, and who decides when a room is taken out of service?\n7. How are fees and add-on charges set, and what internal checks exist before a guest sees a surprise charge?\n8. What did the Playa transition to Tortuga change in the systems and workflows your teams use, and which parts are still shared?\n9. How are owners currently using the vendor-spend and revenue tools, and what do owners say they still need?\n10. What signals would tell you a loyalty member is at risk of feeling let down, and is that data available to the property team?\n\n## Three use-case hypotheses (4-check test)\n\n| Use case | Why | Felt | Would pay | Buildable in a week | First user known |\n|---|---|---|---|---|---|\n| Guest complaint triage and routing | Reviews repeatedly describe dismissive handling of complaints and unresolved maintenance and fee issues. [16][22] | Probably | Unknown | Probably | Unknown |\n| Property-level maintenance and cleanliness issue detection | Reviews cite mold, stains, and missed housekeeping, but public information on maintenance workflows is absent. [17][18][19] | Probably | Unknown | Unknown | Unknown |\n| Fee and value transparency assistant for guests and staff | Value and hidden fees are the most criticized area, and loyalty members say add-on charges feel transactional. [16][17][20][21] | Probably | Unknown | Unknown | Unknown |\n\n## Outreach email\n\n> Hi, I'm writing to ask for a 30-minute discovery call. I've been reading public material on Hyatt's recent portfolio changes, the Playa transition, and the systems mentioned in its 2024 Oracle OPERA Cloud announcement. I'd like to learn how guest issues move from the property to the systems that handle them, and where your teams spend the most effort today. I'm not selling anything in this first call. Would any time in the next two weeks work for you? Thanks, Vamsi\n\n## Sources\n\n1. [Hyatt Careers: Pay, Interview Questions & Benefits](https://hyring.com/company/hyatt) · quote on page: found\n2. [Hyatt Hotels Corp - Form 10-K - FY2025](https://www.sec.gov/Archives/edgar/data/1468174/000146817426000007/h-20251231.htm) · quote on page: unreachable\n3. [HYATT HOTELS CORPORATION](https://s203.q4cdn.com/249399152/files/doc_financials/2025/ar/e87cdaed-c0b9-4479-8bc7-8d95694aec52.pdf) · quote on page: not found\n4. [Hyatt Hotels Corp - Form 10-K - FY2020](https://www.sec.gov/Archives/edgar/data/1468174/000146817421000011/h-20201231.htm) · quote on page: unreachable\n5. [Hyatt](https://en.wikipedia.org/wiki/Hyatt) · quote on page: found\n6. [Hyatt Hotels Corporation - Hyatt Announces Timing of Third Quarter 2026 Earnings Release and Investor Conference Call](https://investors.hyatt.com/news/investor-news/news-details/2026/Hyatt-Announces-Timing-of-Third-Quarter-2026-Earnings-Release-and-Investor-Conference-Call/default.aspx) · quote on page: found\n7. [Hyatt Q2 2026: Revenue Up, Pipeline Hits 154,000 Rooms](https://lexpress-franchise.com/en-us/news/hyatt-q2-2026-revenue-beats-estimates-as-franchise-pipeline-reaches-154000-rooms/) · quote on page: found\n8. [Hyatt Opens More Than 110 New Hotels In 2026 (The Full List) - Travel Codex](https://www.travelcodex.com/hyatt-opens-more-than-110-new-hotels-in-2026-the-full-list/) · quote on page: found\n9. [Hyatt expands 2026 luxury pipeline - THP News](https://tophotel.news/hyatt-expands-2026-luxury-pipeline/) · quote on page: found\n10. [Hyatt reports Q2 2026 profit, maintains 2026 outlook](https://www.stocktitan.net/sec-filings/H/8-k-hyatt-hotels-corp-reports-material-event-b3b51204e6ec.html) · quote on page: unreachable\n11. [Hyatt completes $2B sale of Playa Hotels & Resorts real estate](https://www.hoteldive.com/news/hyatt-completes-playa-hotels-resorts-real-estate-sale/808726/) · quote on page: unreachable\n12. [Asset-light strategy to fuel Hyatt’s growth in 2026](https://www.hoteldive.com/news/hyatt-earnings-q4-2025/812093/) · quote on page: unreachable\n13. [Hyatt Finishes 2025 with Highest Number of U.S. Room Signings in Five Years, Reaches Record Global Pipeline of Approximately 148,000 Rooms](https://newsroom.hyatt.com/1-26-2026-RecordPipeline) · quote on page: found\n14. [Hyatt Hotels Corp - Form 8-K - FY2026](https://www.sec.gov/Archives/edgar/data/0001468174/000110465926067209/tm2615108d1_ex99-2.htm) · quote on page: unreachable\n15. [Hyatt Hotels Corporation Q2 2026 Earnings Call Summary](https://finance.yahoo.com/markets/stocks/articles/hyatt-hotels-corporation-q2-2026-015550868.html) · quote on page: found\n16. [Hyatt Hotels Reviews](https://www.trustpilot.com/review/www.hyatt.com) · quote on page: robots.txt\n17. [Hyatt, Hilton, and IHG: What 1,400 Guest Reviews Reveal About the Modern Hotel Experience](https://www.alchemer.com/resources/e-guide/2026-hotel-research-report/) · quote on page: found\n18. [Hotel Reviews](https://www.hyatt.com/hyatt-house/en-US/dfwxa-hyatt-house-dallas-addison/reviews) · quote on page: unreachable\n19. [Hotel Reviews](https://www.hyatt.com/hyatt-place/en-US/msyzc-hyatt-place-new-orleans-convention-center/reviews) · quote on page: unreachable\n20. [Hotel Reviews](https://www.hyatt.com/hyatt-regency/en-US/miarm-hyatt-regency-miami/reviews) · quote on page: unreachable\n21. [HYATT PALM SPRINGS - Updated 2026 Prices & Hotel Reviews (CA)](https://www.tripadvisor.com/Hotel_Review-g32847-d113883-Reviews-Hyatt_Palm_Springs-Palm_Springs_Greater_Palm_Springs_California.html) · quote on page: unreachable\n22. [Hotel Guest Reviews](https://www.hyatt.com/hyatt-hotels/en-US/palms-hyatt-palm-springs/reviews) · quote on page: unreachable\n23. [Hyatt Selects Oracle OPERA Cloud as Property Management System for its Global Properties](https://www.prnewswire.com/news-releases/hyatt-selects-oracle-opera-cloud-as-property-management-system-for-its-global-properties-302249580.html) · quote on page: found\n24. [Hyatt looks to Oracle for property management system](https://www.phocuswire.com/oracle-hyatt-property-management-system) · quote on page: unreachable\n25. [New World of Hyatt mobile app provides loyalty members with a more personalized and seamless travel experience](https://www.journaldespalaces.com/en/pressrelease-55955-new-world-of-hyatt-mobile-app-provides-loyalty-members-with-a-more-personalized-and-seamless-travel-experience.html) · quote on page: found\n26. [Hyatt Rolls Out Room Keys in Apple Wallet](https://www.businesswire.com/news/home/20211208005152/en/Hyatt-Rolls-Out-Room-Keys-in-Apple-Wallet) · quote on page: unreachable\n27. [Way's Premier Experiential Platform Powers Ancillary and Loyalty Experiences for Hyatt](https://www.prnewswire.com/news-releases/ways-premier-experiential-platform-powers-ancillary-and-loyalty-experiences-for-hyatt-302537321.html) · quote on page: found\n28. [Hyatt (H) Q2 2026 Earnings Call Transcript](https://www.fool.com/earnings/call-transcripts/2026/08/03/hyatt-h-q2-2026-earnings-call-transcript/) · quote on page: found\n29. [Earnings call transcript: Hyatt Hotels posts Q2 2026 EPS beat as shares fall 6.7% By Investing.com](https://m.investing.com/news/transcripts/earnings-call-transcript-hyatt-hotels-posts-q2-2026-eps-beat-as-shares-fall-67-93CH-4825374?ampMode=1) · quote on page: unreachable\n30. [Hyatt’s AI Captures Customers Sooner, Improving Sales and Productivity](https://skift.com/2026/03/24/hyatts-ai-captures-customers-sooner-improving-sales-and-productivity/) · quote on page: found\n31. [H Q1-2026 Earnings Call - Alpha Spread](https://www.alphaspread.com/security/nyse/h/investor-relations/earnings-call/q1-2026) · quote on page: unreachable\n\n## How this brief was checked\n\n- Findings kept: 30; removed for having no source: 30; brief lines dropped for citing nothing: 0.\n- Cited quotes found on their page: 18 of 19 checked; not fetched because robots.txt disallows it: 2.\n- News older than 12 months flagged: 0. Topics with no reliable public information: none.\n- Cost 0.141 USD (12 web searches, 8 model calls), 100 s.\n",
+ "findings": [
+  {
+   "id": "F1",
+   "topic": "overview",
+   "claim": "As of December 31, 2025 it operated 1,528 properties and 372,763 rooms across 83 countries.",
+   "sources": [
+    {
+     "url": "https://hyring.com/company/hyatt",
+     "title": "Hyatt Careers: Pay, Interview Questions & Benefits",
+     "cited_text": "As of December 31, 2025 it operated 1,528 properties and 372,763 rooms across 83 countries, under brands including Park Hyatt, Grand Hyatt, Hyatt Rege...",
+     "verified": "found"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "F2",
+   "topic": "overview",
+   "claim": "At December 31, 2025, we had approximately 242,000 colleagues working at our corporate and regional offices, our managed, franchised, owned, and leased properties.",
+   "sources": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/1468174/000146817426000007/h-20251231.htm",
+     "title": "Hyatt Hotels Corp - Form 10-K - FY2025",
+     "cited_text": "#### Employees\n\n\nAt December 31, 2025, we had approximately 242,000 colleagues working at our corporate and regional offices, our managed, franchised,...",
+     "verified": "unreachable"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "F3",
+   "topic": "overview",
+   "claim": "We directly employ approximately 50,000 of these colleagues.",
+   "sources": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/1468174/000146817426000007/h-20251231.htm",
+     "title": "Hyatt Hotels Corp - Form 10-K - FY2025",
+     "cited_text": "We directly employ approximately 50,000 of these colleagues. ",
+     "verified": "unreachable"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "F4",
+   "topic": "overview",
+   "claim": "The Luxury Portfolio includes Park Hyatt, Alila, Miraval, Impression by Secrets, and The Unbound Collection by Hyatt.",
+   "sources": [
+    {
+     "url": "https://s203.q4cdn.com/249399152/files/doc_financials/2025/ar/e87cdaed-c0b9-4479-8bc7-8d95694aec52.pdf",
+     "title": "HYATT HOTELS CORPORATION",
+     "cited_text": "The *Luxury Portfolio* includes Park Hyatt, Alila, Miraval, Impression by Secrets, and The\n\nUnbound Collection by Hyatt; the *Lifestyle Portfolio* inc...",
+     "verified": "not found"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "F5",
+   "topic": "overview",
+   "claim": "The most recent filing I found that gives a street address is the FY2020 10-K, which places it at 150 North Riverside Plaza, Chicago, Illinois, pursuant to an operating lease.",
+   "sources": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/1468174/000146817421000011/h-20201231.htm",
+     "title": "Hyatt Hotels Corp - Form 10-K - FY2020",
+     "cited_text": "#### Corporate Headquarters and Regional Offices\nOur corporate headquarters are located at 150 North Riverside Plaza, Chicago, Illinois, pursuant to a...",
+     "verified": "unreachable"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "F6",
+   "topic": "overview",
+   "claim": "Traded as: NYSE: H (Class A).",
+   "sources": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Hyatt",
+     "title": "Hyatt",
+     "cited_text": "Hyatt Hotels Corporation\n- 150 North Riverside, the headquarters of Hyatt in Chicago, Illinois\n- Type: Public\n- Traded as: NYSE: H (Class A); FWB: 1HT...",
+     "verified": "found"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "F7",
+   "topic": "overview",
+   "claim": "Hyatt Hotels & Resorts is one of the businesses managed by the Pritzker family.",
+   "sources": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Hyatt",
+     "title": "Hyatt",
+     "cited_text": "Hyatt Hotels & Resorts is one of the businesses managed by the [Pritzker family](https://en.wikipedia.org/wiki/Pritzker_family). ",
+     "verified": "found"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "F8",
+   "topic": "properties",
+   "claim": "The company is the right one (Hyatt Hotels Corporation, NYSE: H, a hotel company), and these findings come from its own releases and trade coverage. Total count: As of June 30, 2026, the portfolio included more than 1,500 hotels and all-inclusive properties in 83 countries across six continents. Pipeline: At the end of Q2 2026, the executed pipeline reached approximately 154,000 rooms, up 10% year over year. Regional openings planned for 2026: Of the more than 110 openings listed for 2026, just over half the list, 61 properties, sits in the Americas, with 33 in Asia Pacific and 18 across Europe, Africa, and the Middle East.",
+   "sources": [
+    {
+     "url": "https://investors.hyatt.com/news/investor-news/news-details/2026/Hyatt-Announces-Timing-of-Third-Quarter-2026-Earnings-Release-and-Investor-Conference-Call/default.aspx",
+     "title": "Hyatt Hotels Corporation - Hyatt Announces Timing of Third Quarter 2026 Earnings Release and Investor Conference Call",
+     "cited_text": "As of June 30, 2026, the Company's portfolio included more than 1,500 hotels and all-inclusive properties in 83 countries across six continents.\n\n\n\n",
+     "verified": "found"
+    },
+    {
+     "url": "https://lexpress-franchise.com/en-us/news/hyatt-q2-2026-revenue-beats-estimates-as-franchise-pipeline-reaches-154000-rooms/",
+     "title": "Hyatt Q2 2026: Revenue Up, Pipeline Hits 154,000 Rooms",
+     "cited_text": "Its franchise brand and management pipeline grew **10%** to approximately **154,000 rooms**, and the company announced a new master franchise agreemen...",
+     "verified": "found"
+    },
+    {
+     "url": "https://www.travelcodex.com/hyatt-opens-more-than-110-new-hotels-in-2026-the-full-list/",
+     "title": "Hyatt Opens More Than 110 New Hotels In 2026 (The Full List) - Travel Codex",
+     "cited_text": "## Global Expansion, US-Heavy Focus\nJust over half the list, 61 properties, sits in the Americas, with 33 in Asia Pacific and 18 across Europe, Africa...",
+     "verified": "found"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "F9",
+   "topic": "properties",
+   "claim": "This is a list of planned openings, not a count of operating hotels. Luxury segment (dated): A September 2025 release said Hyatt's luxury portfolio currently includes nearly 125 hotels and more than 21,000 rooms worldwide.",
+   "sources": [
+    {
+     "url": "https://tophotel.news/hyatt-expands-2026-luxury-pipeline/",
+     "title": "Hyatt expands 2026 luxury pipeline - THP News",
+     "cited_text": "Hyatt’s luxury portfolio currently includes nearly 125 hotels and more than 21,000 rooms worldwide across brands such as Park Hyatt, Alila, Miraval, I...",
+     "verified": "found"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "F10",
+   "topic": "properties",
+   "claim": "Playa's rooms were removed from Hyatt's room count in the second half of 2025, so any Playa-based figure from before that date will not match current totals.",
+   "sources": [
+    {
+     "url": "https://www.stocktitan.net/sec-filings/H/8-k-hyatt-hotels-corp-reports-material-event-b3b51204e6ec.html",
+     "title": "Hyatt reports Q2 2026 profit, maintains 2026 outlook",
+     "cited_text": "3 Net rooms growth for the trailing twelve months was 3.9%, or 4.4% excluding rooms from the Playa Hotels Acquisition that were removed from Hyatt's r...",
+     "verified": "unreachable"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "F11",
+   "topic": "recent_news",
+   "claim": "I found no reliable leadership-change announcements for Hyatt in the last 12 months, so the findings below cover deals, financing, and results. Playa real estate sale (completed): Hyatt completed the $2 billion sale of the Playa Hotels & Resorts real estate portfolio, which Hotel Dive reported on January 5, 2026.",
+   "sources": [
+    {
+     "url": "https://www.hoteldive.com/news/hyatt-completes-playa-hotels-resorts-real-estate-sale/808726/",
+     "title": "Hyatt completes $2B sale of Playa Hotels & Resorts real estate",
+     "cited_text": "Hyatt Hotels has completed the $2 billion sale of the Playa Hotels & Resorts real estate portfolio, according to a company release. ",
+     "verified": "unreachable"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "F12",
+   "topic": "recent_news",
+   "claim": "In December, Hyatt sold its remaining 14 Playa Hotels properties to Tortuga Resorts and subsequently entered into 50-year management agreements with Tortuga for 13 of the 14 properties. Development pipeline (January 2026): Hyatt reported a new record pipeline of approximately 148,000 rooms as of year-end 2025, announced January 26, 2026. Investor Day (May 2026): On May 28, 2026, Hyatt announced a $1 billion increase in share repurchase authorization and an illustrative financial outlook through 2028. Q2 2026 results (July 2026): Management said the sale of Hyatt Grand Central New York is no longer expected to close in 2026, and Distribution segment adjusted EBITDA declined due to temporary factors including Hurricane Melissa-related closures in Jamaica and softer demand for 4-star properties in Mexico. Upcoming: Hyatt will release third quarter 2026 financial results on Thursday, October 29, 2026, so results may change shortly after this meeting.",
+   "sources": [
+    {
+     "url": "https://www.hoteldive.com/news/hyatt-earnings-q4-2025/812093/",
+     "title": "Asset-light strategy to fuel Hyatt’s growth in 2026",
+     "cited_text": "In December, Hyatt sold its remaining 14 Playa Hotels properties to Tortuga Resorts and subsequently entered into 50-year management agreements with T...",
+     "verified": "unreachable"
+    },
+    {
+     "url": "https://newsroom.hyatt.com/1-26-2026-RecordPipeline",
+     "title": "Hyatt Finishes 2025 with Highest Number of U.S. Room Signings in Five Years, Reaches Record Global Pipeline of Approximately 148,000 Rooms",
+     "cited_text": "Hyatt Finishes 2025 with Highest Number of U.S. Room Signings in Five Years, Reaches Record Global Pipeline of Approximately 148,000 Rooms. ",
+     "verified": "found"
+    },
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/0001468174/000110465926067209/tm2615108d1_ex99-2.htm",
+     "title": "Hyatt Hotels Corp - Form 8-K - FY2026",
+     "cited_text": "Exhibit 99.2\n\nHyatt Hotels Corporation Investor Day Highlights Strategy Driven by Premium Position and Differentiation at Scale\n\nPremium brand and dif...",
+     "verified": "unreachable"
+    },
+    {
+     "url": "https://finance.yahoo.com/markets/stocks/articles/hyatt-hotels-corporation-q2-2026-015550868.html",
+     "title": "Hyatt Hotels Corporation Q2 2026 Earnings Call Summary",
+     "cited_text": "The sale of Hyatt Grand Central New York is no longer expected to close in 2026, though management remains active in discussions to unlock value from ...",
+     "verified": "found"
+    },
+    {
+     "url": "https://investors.hyatt.com/news/investor-news/news-details/2026/Hyatt-Announces-Timing-of-Third-Quarter-2026-Earnings-Release-and-Investor-Conference-Call/default.aspx",
+     "title": "Hyatt Hotels Corporation - Hyatt Announces Timing of Third Quarter 2026 Earnings Release and Investor Conference Call",
+     "cited_text": "CHICAGO--(BUSINESS WIRE)-- Hyatt Hotels Corporation (“Hyatt” or the “Company”) (NYSE: H) announced today that it will release third quarter 2026 finan...",
+     "verified": "found"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "F13",
+   "topic": "guest_feedback",
+   "claim": "People frequently experienced poor customer service, with staff members being unhelpful and dismissive when handling complaints or addressing issues.",
+   "sources": [
+    {
+     "url": "https://www.trustpilot.com/review/www.hyatt.com",
+     "title": "Hyatt Hotels Reviews",
+     "cited_text": "People frequently experienced poor customer service, with staff members being unhelpful and dismissive when handling complaints or addressing issues. ",
+     "verified": "robots.txt"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "F14",
+   "topic": "guest_feedback",
+   "claim": "One analysis of 1,400 reviews found that when the physical environment signals luxury and the service doesn't match, the contrast becomes the review. Cleanliness varies widely by property. Many reviews describe clean, well-kept rooms, while others report stains, mold, and missed housekeeping.",
+   "sources": [
+    {
+     "url": "https://www.alchemer.com/resources/e-guide/2026-hotel-research-report/",
+     "title": "Hyatt, Hilton, and IHG: What 1,400 Guest Reviews Reveal About the Modern Hotel Experience",
+     "cited_text": "When the physical environment signals luxury and the service doesn’t match, the contrast becomes the review. ",
+     "verified": "found"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "F15",
+   "topic": "guest_feedback",
+   "claim": "One Hyatt House reviewer described the room service was really bad, and another Hyatt Place New Orleans review described rooms that were moldy and dusty, with musty odors. Location and amenities are frequent strengths. Guests often cite convenient locations and well-appointed pools and gyms.",
+   "sources": [
+    {
+     "url": "https://www.hyatt.com/hyatt-house/en-US/dfwxa-hyatt-house-dallas-addison/reviews",
+     "title": "Hotel Reviews",
+     "cited_text": "- Business Far below the expetion The room service was really bad: during the two weeks, the room was vacuumed on the second to last day, the bed was ...",
+     "verified": "unreachable"
+    },
+    {
+     "url": "https://www.hyatt.com/hyatt-place/en-US/msyzc-hyatt-place-new-orleans-convention-center/reviews",
+     "title": "Hotel Reviews",
+     "cited_text": "However, the rooms were moldy and dusty, with musty odors and visible signs of neglect, which negatively impacted the overall comfort.\n\n",
+     "verified": "unreachable"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "F16",
+   "topic": "guest_feedback",
+   "claim": "One review of Hyatt Regency Miami said the hotel conveniently located in business district is a plus, while another Miami review said the pool and gym really need improvement for a Hyatt Regency. Value and fees draw the most criticism. Reviewers frequently say prices are high relative to the experience.",
+   "sources": [
+    {
+     "url": "https://www.hyatt.com/hyatt-regency/en-US/miarm-hyatt-regency-miami/reviews",
+     "title": "Hotel Reviews",
+     "cited_text": "For the money wasn’t bad, conveniently located in business district with access to whole food across the street not far from Miami Beach with a 10 min...",
+     "verified": "unreachable"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "F17",
+   "topic": "guest_feedback",
+   "claim": "Guests reported unexpected extra charges, hidden fees, and severe maintenance problems inside their rooms upon arrival.",
+   "sources": [
+    {
+     "url": "https://www.trustpilot.com/review/www.hyatt.com",
+     "title": "Hyatt Hotels Reviews",
+     "cited_text": "Guests also encountered unexpected extra charges, hidden fees, and severe maintenance problems inside their rooms upon arrival. ",
+     "verified": "robots.txt"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "F18",
+   "topic": "guest_feedback",
+   "claim": "A Palm Springs reviewer wrote that many guests feel the value doesn't match the high costs associated with the stay. Loyalty benefits are mixed. One analysis says free breakfast, lounge access, and sincere staff recognition help loyalty, while dynamic pricing, paid early check-in, and add-on charges make it feel transactional.",
+   "sources": [
+    {
+     "url": "https://www.tripadvisor.com/Hotel_Review-g32847-d113883-Reviews-Hyatt_Palm_Springs-Palm_Springs_Greater_Palm_Springs_California.html",
+     "title": "HYATT PALM SPRINGS - Updated 2026 Prices & Hotel Reviews (CA)",
+     "cited_text": "Overall, many guests feel the value doesn't match the high costs associated with the stay.\n\n",
+     "verified": "unreachable"
+    },
+    {
+     "url": "https://www.alchemer.com/resources/e-guide/2026-hotel-research-report/",
+     "title": "Hyatt, Hilton, and IHG: What 1,400 Guest Reviews Reveal About the Modern Hotel Experience",
+     "cited_text": "- Free breakfast or restaurant discounts\n- Lounge access or welcome extras\n- Staff recognition that feels sincere\n\n**What weakens perceived value:**\n\n...",
+     "verified": "found"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "F19",
+   "topic": "guest_feedback",
+   "claim": "Individual reviews also show members feeling let down, such as a Palm Springs guest who said the stay was NOT what we expected from a Hyatt: especially as a member.",
+   "sources": [
+    {
+     "url": "https://www.hyatt.com/hyatt-hotels/en-US/palms-hyatt-palm-springs/reviews",
+     "title": "Hotel Guest Reviews",
+     "cited_text": "NOT what we expected from a Hyatt: especially as a member. ",
+     "verified": "unreachable"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "F20",
+   "topic": "technology",
+   "claim": "Findings on Hyatt's publicly reported technology stack (I could not verify a dedicated booking engine or loyalty platform vendor, so those are noted as gaps): Property management system: In September 2024, Oracle announced that Hyatt selected Oracle OPERA Cloud as its PMS for its global properties, Hyatt Selects Oracle OPERA Cloud as Property Management System for its Global Properties., covering more than 1,000 properties and migrating from the on-premise Opera V5 system.",
+   "sources": [
+    {
+     "url": "https://www.prnewswire.com/news-releases/hyatt-selects-oracle-opera-cloud-as-property-management-system-for-its-global-properties-302249580.html",
+     "title": "Hyatt Selects Oracle OPERA Cloud as Property Management System for its Global Properties",
+     "cited_text": "Hyatt Selects Oracle OPERA Cloud as Property Management System for its Global Properties. ",
+     "verified": "found"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "F21",
+   "topic": "technology",
+   "claim": "Central reservations: A trade article reports that Hyatt announced a deal with Sabre a year ago to adopt the SynXis central reservation system as its main CRS from the beginning of this year.",
+   "sources": [
+    {
+     "url": "https://www.phocuswire.com/oracle-hyatt-property-management-system",
+     "title": "Hyatt looks to Oracle for property management system",
+     "cited_text": "Hyatt announced a deal with Sabre a year ago to adopt the SynXis central reservation system as its main CRS from the beginning of this year.\n\n",
+     "verified": "unreachable"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "F22",
+   "topic": "technology",
+   "claim": "Mobile app: Hyatt announced a redesigned World of Hyatt mobile app on August 1, 2019, which is available on both iOS and Android systems and exclusively for loyalty members.",
+   "sources": [
+    {
+     "url": "https://www.journaldespalaces.com/en/pressrelease-55955-new-world-of-hyatt-mobile-app-provides-loyalty-members-with-a-more-personalized-and-seamless-travel-experience.html",
+     "title": "New World of Hyatt mobile app provides loyalty members with a more personalized and seamless travel experience",
+     "cited_text": "Available on both iOS and Android systems and exclusively for loyalty members, the new World of Hyatt app is anchored in single swipe navigation, allo...",
+     "verified": "found"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "F23",
+   "topic": "technology",
+   "claim": "Digital keys and messaging: Hyatt's digital key in the World of Hyatt app utilizes Bluetooth technology that allows guests to use the World of Hyatt app on their iPhone or Android phone as a digital key.",
+   "sources": [
+    {
+     "url": "https://www.businesswire.com/news/home/20211208005152/en/Hyatt-Rolls-Out-Room-Keys-in-Apple-Wallet",
+     "title": "Hyatt Rolls Out Room Keys in Apple Wallet",
+     "cited_text": "- **Digital Key** **in the World of Hyatt App:** Hyatt’s digital key in the World of Hyatt mobile app utilizes Bluetooth technology that allows guests...",
+     "verified": "unreachable"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "F24",
+   "topic": "technology",
+   "claim": "Hyatt also is deploying Medallia Zingle-powered intelligent messaging technology across its global portfolio, per a press release from late 2021.",
+   "sources": [
+    {
+     "url": "https://www.businesswire.com/news/home/20211208005152/en/Hyatt-Rolls-Out-Room-Keys-in-Apple-Wallet",
+     "title": "Hyatt Rolls Out Room Keys in Apple Wallet",
+     "cited_text": "- **Two-Way Hotel Chat**: Hyatt is deploying Medallia Zingle-powered intelligent messaging technology across its global portfolio, offering personaliz...",
+     "verified": "unreachable"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "F25",
+   "topic": "technology",
+   "claim": "Experiences platform partner: Hyatt partnered with experiential platform Way, which will integrate Way's platform and APIs into Hyatt's digital ecosystem, including Hyatt.com, the World of Hyatt mobile app, property websites, and World of Hyatt FIND Experiences platform.",
+   "sources": [
+    {
+     "url": "https://www.prnewswire.com/news-releases/ways-premier-experiential-platform-powers-ancillary-and-loyalty-experiences-for-hyatt-302537321.html",
+     "title": "Way's Premier Experiential Platform Powers Ancillary and Loyalty Experiences for Hyatt",
+     "cited_text": "This strategic initiative integrates Way's platform and APIs into Hyatt's digital ecosystem, including Hyatt.com, the World of Hyatt mobile app, prope...",
+     "verified": "found"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "F26",
+   "topic": "ai_opportunities",
+   "claim": "CEO Hoplamazian reported that proprietary AI tools are now used to value every piece of group business, contributing to improved flow-through and revenue optimization.",
+   "sources": [
+    {
+     "url": "https://www.fool.com/earnings/call-transcripts/2026/08/03/hyatt-h-q2-2026-earnings-call-transcript/",
+     "title": "Hyatt (H) Q2 2026 Earnings Call Transcript",
+     "cited_text": "- CEO Hoplamazian reported that proprietary AI tools are now used to value every piece of group business, contributing to improved flow-through and re...",
+     "verified": "found"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "F27",
+   "topic": "ai_opportunities",
+   "claim": "Over the course of this year, we've developed an AI-enabled platform to help identify the signals that our hotel teams can go after.",
+   "sources": [
+    {
+     "url": "https://m.investing.com/news/transcripts/earnings-call-transcript-hyatt-hotels-posts-q2-2026-eps-beat-as-shares-fall-67-93CH-4825374?ampMode=1",
+     "title": "Earnings call transcript: Hyatt Hotels posts Q2 2026 EPS beat as shares fall 6.7% By Investing.com",
+     "cited_text": "## Full transcript - Hyatt Hotels Corp (H) Q2 2026:\nOver the course of this year, we’ve developed an AI-enabled platform to help identify the signals ...",
+     "verified": "unreachable"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "F28",
+   "topic": "ai_opportunities",
+   "claim": "The company is deploying AI-enabled tools to help owners optimize vendor spending and revenue management.",
+   "sources": [
+    {
+     "url": "https://finance.yahoo.com/markets/stocks/articles/hyatt-hotels-corporation-q2-2026-015550868.html",
+     "title": "Hyatt Hotels Corporation Q2 2026 Earnings Call Summary",
+     "cited_text": "- The company is deploying AI-enabled tools to help owners optimize vendor spending and revenue management, which management believes is driving incre...",
+     "verified": "found"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "F29",
+   "topic": "ai_opportunities",
+   "claim": "Hyatt has overhauled its online booking experience by introducing generative AI that lets travelers search based on personal intent, such as desired climate or amenities, rather than traditional filters like location and dates.",
+   "sources": [
+    {
+     "url": "https://skift.com/2026/03/24/hyatts-ai-captures-customers-sooner-improving-sales-and-productivity/",
+     "title": "Hyatt’s AI Captures Customers Sooner, Improving Sales and Productivity",
+     "cited_text": "## Summary\nHyatt has overhauled its online booking experience by introducing generative AI that lets travelers search based on personal intent, such a...",
+     "verified": "found"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "F30",
+   "topic": "ai_opportunities",
+   "claim": "Management said the high-end traveler remains very strong, with premium leisure up about 7% and loyalty members spending nearly twice as much as nonmembers. Gaps: I found no reliable public information on AI for customer service automation, or for property-level staffing and maintenance workflows.",
+   "sources": [
+    {
+     "url": "https://www.alphaspread.com/security/nyse/h/investor-relations/earnings-call/q1-2026",
+     "title": "H Q1-2026 Earnings Call - Alpha Spread",
+     "cited_text": "**Premium demand:** Management said the high-end traveler remains very strong, with premium leisure up about 7% and loyalty members spending nearly tw...",
+     "verified": "unreachable"
+    }
+   ],
+   "flags": []
+  }
+ ],
+ "quotes_found": 18,
+ "quotes_checked": 19,
+ "coverage": 0.5,
+ "seconds": 100.5,
+ "tokens_in": 143453,
+ "tokens_out": 12359,
+ "searches": 12,
+ "source": "eval/reports/research-2026-10-25-dev.jsonl (run 1)"
+}

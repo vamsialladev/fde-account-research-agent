@@ -8,6 +8,8 @@ import time
 from collections.abc import Callable
 from dataclasses import dataclass, field
 
+from hotelplatform import tracing
+
 from research import agents, brief, config
 from research.fetcher import Fetcher
 from research.models import Finding, Step, Usage
@@ -38,6 +40,10 @@ class Run:
 def _record(run: Run, name: str, inp: dict, out: dict, start: float, cost_before: float, on_step) -> None:
     step = Step(name, inp, out, round(time.perf_counter() - start, 2), round(run.cost - cost_before, 4))
     run.steps.append(step)
+    # The same step on the shared ops trace (hotel-ai-platform), when there is one (not in evals or tests).
+    if (trace := tracing.current()) is not None:
+        trace.record(name, step.seconds * 1000, status="error" if "error" in out else "ok", input=inp,
+                     output=out, cost_usd=step.cost_usd)  # fmt: skip
     if on_step:
         on_step(step)
 
