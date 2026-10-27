@@ -4,6 +4,7 @@
 ![Python 3.12](https://img.shields.io/badge/python-3.12-blue)
 [![Ruff](https://img.shields.io/badge/lint-ruff-261230)](https://docs.astral.sh/ruff/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+![coverage gate 80%](https://img.shields.io/badge/coverage%20gate-%E2%89%A580%25-brightgreen)
 
 **Type a hotel company's name and get a cited brief for a first client meeting: who they are, recent news, what
 guests say, tech hints, ten questions to ask, three use-case guesses and a short email. Every line has a source,
@@ -206,6 +207,25 @@ What exists today is marked **Built**; anything else is **Roadmap**.
 | **Observability** | **Built (1.1.0):** every live brief and chat question is one trace (OpenTelemetry-shaped IDs); each pipeline step (planner, each researcher, critic, the second pass, writer, checks) is a span with its cost, written to the shared `ops_request_log` / `ops_trace_span` tables with the other hotel apps (PII removed first, batched, 30-day retention). Errors show "Reference: 4f1c9a2e"; the hidden Admin page (`ADMIN_PASSWORD`) finds it and draws the waterfall, with cost today and this month against the caps. Keep-awake visits run nothing. **Roadmap:** an OpenTelemetry exporter to a real collector. |
 | **Failure modes and rollback** | **Built:** a planner failure falls back to a fixed plan; a writer answer that's cut off or not JSON gets one shorter retry, then an empty brief that says so; pages that can't be read are marked "unreachable", not counted as wrong; the cost cap stops research and still writes the brief. Rollback: revert the commit on `main` (Streamlit Cloud redeploys). |
 
+## Security & guardrails
+
+**Spending gates (1.1.0):** every live brief uses paid web search, so the public demo is gated. Anyone can open three
+example briefs (Hyatt, Club Med, Four Seasons) for free: they're real briefs from the saved 2026-10-25 eval run,
+labelled with that date and copied unchanged (`scripts/make_examples.py`, checked by a test). A live run needs the
+`DEMO_CODE`, or is limited to 3 a day across everyone; `MONTHLY_COST_CAP_USD` (default $10) stops live runs for the
+rest of the month, counted from the durable ops log so a restart doesn't reset it.
+
+**Guardrails and red team (1.1.0):** company names and chat questions are checked with the shared guardrails from
+[hotel-ai-platform](https://github.com/vamsialladev/hotel-ai-platform) before any model call or web search. The
+critic now also removes instructions planted in web pages from findings, and drops a finding that's nothing but an
+instruction (0 of 538 saved findings changed). **Red team** ([docs/RED_TEAM.md](docs/RED_TEAM.md), in CI): shared
+corpus 48/48 (four documented differences: no promise or numbered-citation wording; a planted-only note is dropped,
+not cleaned). This app's 11 held-out cases passed 10/11 on the first run. The miss, a question about a CEO's family,
+is listed as a known gap; the critic scrubs personal data from findings anyway.
+
+Threat model (STRIDE), OWASP Top 10 for LLM applications mapping, data classification and incident response:
+[SECURITY.md](SECURITY.md). Secrets only in `.env` or host secrets; gitleaks in pre-commit and CI.
+
 ## Run locally
 
 Windows (PowerShell):
@@ -318,25 +338,6 @@ unreadable pages), the writer's retry, the chat and its follow-up rewrite, the s
 Streamlit's AppTest, the business case and every eval check with real phrasings from the runs. CI runs ruff, pytest
 with an 80% coverage gate, re-scoring of the saved eval runs (any changed verdict fails), pip-audit, a link check and
 gitleaks. `make check` runs the same locally.
-
-## Security
-
-**Spending gates (1.1.0):** every live brief uses paid web search, so the public demo is gated. Anyone can open three
-example briefs (Hyatt, Club Med, Four Seasons) for free: they're real briefs from the saved 2026-10-25 eval run,
-labelled with that date and copied unchanged (`scripts/make_examples.py`, checked by a test). A live run needs the
-`DEMO_CODE`, or is limited to 3 a day across everyone; `MONTHLY_COST_CAP_USD` (default $10) stops live runs for the
-rest of the month, counted from the durable ops log so a restart doesn't reset it.
-
-**Guardrails and red team (1.1.0):** company names and chat questions are checked with the shared guardrails from
-[hotel-ai-platform](https://github.com/vamsialladev/hotel-ai-platform) before any model call or web search. The
-critic now also removes instructions planted in web pages from findings, and drops a finding that's nothing but an
-instruction (0 of 538 saved findings changed). **Red team** ([docs/RED_TEAM.md](docs/RED_TEAM.md), in CI): shared
-corpus 48/48 (four documented differences: no promise or numbered-citation wording; a planted-only note is dropped,
-not cleaned). This app's 11 held-out cases passed 10/11 on the first run. The miss, a question about a CEO's family,
-is listed as a known gap; the critic scrubs personal data from findings anyway.
-
-Threat model (STRIDE), OWASP Top 10 for LLM applications mapping, data classification and incident response:
-[SECURITY.md](SECURITY.md). Secrets only in `.env` or host secrets; gitleaks in pre-commit and CI.
 
 ## Documentation
 
