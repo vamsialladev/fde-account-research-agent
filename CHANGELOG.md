@@ -4,6 +4,12 @@ All notable changes are listed here. The format follows [Keep a Changelog](https
 and the project uses [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
+## [Unreleased]
+### Fixed
+- Saved example briefs no longer show an empty "Steps (0)" tab: the eval runs they come from never recorded
+  steps, so the tab is left out and a caption says so ("Run a live brief to see them"). Live briefs keep it.
+
+
 ## [1.1.0] - 2026-10-25
 ### Added
 - Three example briefs anyone can open for free (`data/examples/`, copied unchanged from the saved eval run by

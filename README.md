@@ -338,7 +338,7 @@ All optional except the key. Set in `.env` locally or in Streamlit secrets.
 
 ## Testing and quality
 
-45 tests, 91% coverage (main's CI, 2026-10-28), with the model and the web replaced (no key needed): the whole pipeline and its cost cap,
+46 tests, 91% coverage (2026-10-28), with the model and the web replaced (no key needed): the whole pipeline and its cost cap,
 sentence stitching, the critic (sources, personal data, stale news, quote checks), the fetcher (robots.txt, cache,
 unreadable pages), the writer's retry, the chat and its follow-up rewrite, the share link, limits, the app through
 Streamlit's AppTest, the business case and every eval check with real phrasings from the runs. CI runs ruff, pytest

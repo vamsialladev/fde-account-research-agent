@@ -187,14 +187,18 @@ def brief_view(entry):
     cols[1].metric("Quotes found on their page", f"{c.get('quotes_found', 0)}/{c.get('quotes_checked', 0)}")
     cols[2].metric("Cost", f"${run.cost:.3f}")
     cols[3].metric("Time", f"{run.seconds:.0f} s")
-    brief_tab, steps_tab, ask = st.tabs(["Brief", f"Steps ({len(run.steps)})", "Ask about it"])
+    if not run.steps:  # saved examples: the eval runs they come from never recorded steps (examples.to_run)
+        st.caption("Saved example: its steps weren't recorded. Run a live brief to see them.")
+        brief_tab, ask = st.tabs(["Brief", "Ask about it"])
+    else:
+        brief_tab, steps_tab, ask = st.tabs(["Brief", f"Steps ({len(run.steps)})", "Ask about it"])
+        with steps_tab:
+            show_steps(run.steps)
     with brief_tab:
         st.markdown(run.markdown)
         st.download_button(
             "Download brief.md", run.markdown, file_name=f"brief-{run.company.lower().replace(' ', '-')}.md"
         )
-    with steps_tab:
-        show_steps(run.steps)
     with ask:
         ask_tab(entry)
     if st.button("Share this brief", icon=":material/link:"):
