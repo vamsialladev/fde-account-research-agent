@@ -37,3 +37,18 @@ deployed, before recording. Club Med's findings change with the news.
 
 I built an account research agent that writes a cited brief for a first client meeting, checks every quote on
 its page, and says "nothing reliable found" instead of inventing a company.
+
+## AI narration (used in docs/video/demo-ai-voice.mp4)
+
+Until I record my own voice, the demo video (1:32) is narrated by an AI voice (Kokoro `af_heart`, local) and labelled "AI-narrated" on screen and here. It was recorded from the live app with Playwright; the captions are the narration, timed to the voice. `/` marks a pause.
+
+| Step | Narration |
+|---|---|
+| intro | Before a first client meeting, I spend a couple of hours reading about the company. / This does the gathering for me, / and every line it writes has a source. / It's a simulated engagement, and it only reads public web pages. |
+| open | Here's a saved brief for Club Med. / A planner wrote six questions, researchers searched the web for each, / and a critic in plain code checked the work. / Forty-one findings made it through. |
+| cite | Every line cites a numbered source. / For each source, it went back to the page / and checked the quote is really there: / thirty-two of thirty-seven here. |
+| meeting | Then ten questions for the meeting, / three use-case guesses with what we don't know yet, / and a short email asking for a call. |
+| ask | I can ask about the brief. / What do guests complain about most? / It answers only from the findings, with their IDs. No new searches. |
+| limits | A live brief costs about fourteen cents in searches, / so without a demo code there are three a day for everyone, / and all live runs stop at ten dollars a month. |
+| proof | In the eval, seventeen of eighteen briefs pass every check. / The weak spot is made-up companies: / on the held-out ones it stayed honest in only one of three. / That's written down, not hidden. |
+| live | It's live, the link's below, and so is the code. |

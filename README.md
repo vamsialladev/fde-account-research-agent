@@ -16,9 +16,15 @@ and every quote was checked on its page.**
 > [hotel-ai-discovery](https://github.com/vamsialladev/hotel-ai-discovery).
 
 <!-- DEMO-VIDEO -->
+<!-- AI-NARRATED-DEMO:START -->
+<a href="https://vamsialla.com/projects/fde-account-research-agent.html#demo"><img src="docs/video/demo-ai-voice.jpg" alt="Demo video, AI-narrated: a saved Club Med brief with numbered sources and quotes checked on their pages, the meeting questions, use-case guesses and email, a question answered only from the findings, and the limits on live briefs" width="720"></a>
 
-**Try it live:** not deployed yet. It needs a Streamlit Community Cloud app with one secret, which I add myself.
-It runs locally in a few minutes: [Run locally](#run-locally).
+**Demo video (1:32, AI-narrated):** [watch it with sound on vamsialla.com](https://vamsialla.com/projects/fde-account-research-agent.html#demo) (GitHub can't play MP4 files from a repo) · [download the MP4](docs/video/demo-ai-voice.mp4) · captions burned in ([text](docs/video/demo-ai-voice.srt)). The narrator is an AI voice (Kokoro); my own-voice version will replace it.
+<!-- AI-NARRATED-DEMO:END -->
+
+**Try it live:** <https://fde-account-research-agent.streamlit.app> (free hosting: may take ~30 s to wake). Three
+saved example briefs open free; live briefs need a demo code or are limited to three a day across everyone, and all
+live runs stop at $10 a month. It also runs locally in a few minutes: [Run locally](#run-locally).
 
 ## At a glance
 
