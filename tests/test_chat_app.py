@@ -143,6 +143,15 @@ def test_example_brief_opens_free_with_no_model_call(app, ops_log_in_tmp, monkey
     assert ops_rows(ops_log_in_tmp) == []  # nothing was run, so nothing was logged or spent
 
 
+def test_example_brief_has_no_empty_steps_tab(app, monkeypatch):
+    monkeypatch.setattr(pipeline, "run", lambda *a, **k: (_ for _ in ()).throw(AssertionError("no live run")))
+    app.run()
+    next(b for b in app.button if b.label == "Club Med").click().run()
+    assert not app.exception
+    assert [t.label for t in app.tabs] == ["Brief", "Ask about it"]  # was "Steps (0)", empty
+    assert any("steps weren't recorded" in c.value for c in app.caption)
+
+
 def test_live_brief_gets_a_trace_with_every_pipeline_step(app, ops_log_in_tmp):
     app.run()
     app.text_input[0].input("Hyatt Hotels Corporation")
