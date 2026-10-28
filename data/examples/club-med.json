@@ -1,0 +1,655 @@
+{
+ "company": "Club Med",
+ "run": 1,
+ "markdown": "# Discovery-prep brief: Club Med\n\nPrepared 2026-10-25 for a first meeting. Every line cites its sources; lines the critic couldn't source were removed. Research by an AI agent from public web pages: check before quoting.\n\n## Snapshot\n\n- Club Med SAS is a Paris-headquartered tourism subsidiary; its majority owner is Fosun Tourism Group, the leisure unit of Fosun International. [1][2]\n- Fosun's takeover was completed in 2015. [3]\n- Club Med is an all-inclusive resort operator founded in 1950, with products including all-inclusive holidays, tours, and the Club Med 2 sailing yacht. [1][6][7][10]\n- Its footprint is reported at 68 resorts in 40 countries across ownership, lease and management-contract structures, but counts vary by source (about 60 to 61 in 2026 reports). [1][4][5][10][11][12]\n- Employee counts vary widely by source (about 14K to 29K), so headcount is unconfirmed. [4]\n\n## Recent news (last 12 months)\n\n- July 2025: Henri Giscard d'Estaing said Fosun ousted him as president; Fosun disputes his account. The dispute concerned possible relisting on the Paris Stock Exchange. [9]\n- April 2026: The company set a goal of 100 villages within 10 years, implying roughly 40 openings. [10][16]\n- April 20, 2026: The 2025 results release was published, reporting an average daily rate of €241, up 5% at constant exchange rates. [18][19][20]\n- July 4, 2026: Club Med South Africa Beach & Safari opened. [17]\n- July 2026: Club Med signed a strategic cooperation memorandum with Microsoft at its Paris headquarters. [31]\n- September 17, 2026: Inauguration of its first South Africa resort is listed on the corporate news page. [18][19][20]\n- November 2026: Club Med Borneo in Sabah, Malaysia is scheduled to open, with a 400-key rainforest property. [18][19][20]\n\n## What guests say (themes)\n\n- Guests praise warm, attentive service and staff who remember them, especially for children. [21][39]\n- Activities and sports are a major draw, with more than 60 activities depending on the resort. [23][35]\n- Food variety and buffet quality draw repeated criticism. [22][23]\n- Slow or inattentive service appears at some properties. [24][25]\n- Evening entertainment is mixed, with some resorts criticized. [26]\n- Value for money, extra costs, and room upkeep recur as concerns. [21][24]\n\n## Technology hints\n\n- Events booking runs on a Salesforce-based app built by GoMeddo, used to schedule more than 1,000 business events a year. [27]\n- Property management and group tools use UrVenue's PXMS platform. [28]\n- The Group Itinerary Builder launched in April 2024 at Club Med Cancún. [29]\n- The WhatsApp customer assistant was built on Azure OpenAI Service and covers 50% of conversations with Brazilian customers. [32]\n- Club Med has a partnership with Thales and Google to secure sensitive HR data. [33]\n- Windsor.ai was appointed for marketing attribution and data integration, though that article is about seven years old. [34]\n\n## Ten questions for the meeting\n\n1. Which system is the system of record for resort inventory and room status, and how does it connect to PXMS?\n2. How is the Salesforce-based events booking app integrated with the booking and property systems?\n3. What does the WhatsApp assistant currently handle, and what is its escalation path to human staff?\n4. Which guest-facing channels exist today (app, website, booking engine), given that public information on them is missing?\n5. How are Gold and Platinum pre-arrival touchpoints such as Easy Arrival run today, and who owns that data?\n6. What are the current loyalty tier thresholds, given that sources conflict on them?\n7. How do guest feedback and review data reach resort management, and how quickly?\n8. Which resort-level decisions (food, activities, entertainment) are central and which are local?\n9. How will the 100-village expansion and the Borneo and South Africa openings be staffed and systematized?\n10. Who owns the Travel Agent Portal and tiered agent rewards, and how are agent bookings reconciled with direct ones?\n\n## Three use-case hypotheses (4-check test)\n\n| Use case | Why | Felt | Would pay | Buildable in a week | First user known |\n|---|---|---|---|---|---|\n| Pre-arrival personalised messaging for loyalty members | Gold and Platinum members get pre-stay services that are natural points for personalised messages. [36][37][38] | Unknown | Unknown | Probably | Probably |\n| Activity recommendation for guests across resorts | A broad activity catalogue plus guest interest in activities may support recommendations. [23][35] | Probably | Unknown | Unknown | Unknown |\n| Guest feedback triage for food and service issues | Repeated complaints about food variety, service speed, and room upkeep could be surfaced earlier. [21][22][23][24][25] | Probably | Unknown | Unknown | Unknown |\n\n## Outreach email\n\n> Hello,\n>\n> I'm reaching out to ask for a 30-minute discovery call. I'd like to learn how Club Med's guest and operations teams currently handle bookings, pre-arrival communication, and guest feedback, and where those processes create the most friction.\n>\n> I've read the public material on your recent systems work, including the WhatsApp assistant and the events booking app, and I'd like to hear from your team what matters most day to day.\n>\n> Would a 30-minute call in the next two weeks work for you? I can adjust to your schedule.\n>\n> Thanks,\n> Vamsi\n\n## Sources\n\n1. [Club Med](https://en.wikipedia.org/wiki/Club_Med) · quote on page: found\n2. [Club Med owner Fosun Tourism courts investors on return to profitability days after reports of debt concerns at parent firm](https://www.scmp.com/business/china-business/article/3255596/club-med-owner-fosun-tourism-courts-investors-return-profitability-days-after-reports-debt-concerns) · quote on page: found\n3. [Hotel Brand Guide: Club Med Overview](https://umbrex.com/resources/global-hotel-brand-guide/club-med/) · quote on page: unreachable\n4. [3 - 2014 MANAGEMENT REPORT 3 CLUB MED PRESENTATION…………………………………….. p 3](https://ns.clubmed.com/amn/2022/Marketing/ENGL-CRSreport2022-Finalversion-26jul23.pdf?_ga=2.228065247.371424059.1718631895-38680451.1718287657) · quote on page: unreachable\n5. [Club Med Celebrates 75 years of the All-Inclusive Concept - Club Med](https://corporate.clubmed/?p=37253) · quote on page: not found\n6. [Club Med Employee Directory, Headcount & Staff](https://leadiq.com/c/club-med/5a1d95bb2300005b0084681a/employee-directory) · quote on page: found\n7. [Club Med SAS Company Profile - Overview - GlobalData](https://www.globaldata.com/company-profile/club-med-sas/) · quote on page: found\n8. [Club Mediterranée S.A. — Company History](https://www.company-histories.com/Club-Mediterranee-SA-Company-History.html) · quote on page: found\n9. [Club Med Boss Says He's Been Ousted by Owner Fosun UPDATED](https://skift.com/2025/07/16/club-med-boss-says-hes-been-ousted-by-owner-fosun/) · quote on page: found\n10. [Club Med veut atteindre les 100 villages en 2035](https://www.lechotouristique.com/article/club-med-veut-atteindre-les-100-villages-en-2035) · quote on page: found\n11. [Club Med 2026 : liste complète des villages ouverts et chefs](https://videopardrone.fr/blog/club-med-2026-liste-complete-des-villages-ouverts-et-chefs-de-village/) · quote on page: found\n12. [All Club Med Resorts: Locations, List & Guide (2026)](https://www.resortflock.com/brands/club-med) · quote on page: not found\n13. [Most-Loved Ski Destinations and Ski Resorts at Club Med](https://www.clubmed.com.au/l/snow-holiday-package/ski-resorts) · quote on page: found\n14. [All-Inclusive Ski Packages](https://www.clubmed.us/o/all-inclusive-ski-offer) · quote on page: found\n15. [Voyage Villages Club Med Europe: Au meilleur prix garanti](https://voyagesaquaterra.com/club-med-europe) · quote on page: found\n16. [Club Med Opens 3 New Ski Resorts, Plus New Luxury Sailing Yacht - Travel Off Path](https://www.traveloffpath.com/club-med-opens-3-new-ski-resorts-plus-new-luxury-sailing-yacht/) · quote on page: found\n17. [Club Med 100 villages en 2035 : le plan détaillé - Ulysse](https://ulysse.com/news/club-med-100-villages-2035) · quote on page: not found\n18. [2025 Results - Club Med](https://corporate.clubmed/2025-results/?lang=eng) · quote on page: found\n19. [Latest News - Club Med Corporate](https://corporate.clubmed/?lang=eng) · quote on page: found\n20. [Club Med Borneo in Sabah Opens in 2026](https://www.timeout.com/asia/news/club-med-borneo-is-opening-in-malaysia-in-2026-heres-everything-you-need-to-know-031926) · quote on page: found\n21. [CLUB MED PHUKET - Updated 2026 Reviews (Karon)](https://www.tripadvisor.com/Hotel_Review-g1215780-d595720-Reviews-Club_Med_Phuket-Karon_Phuket.html) · quote on page: unreachable\n22. [Club Med Reviews & Complaints](https://www.consumeraffairs.com/travel/club_med.html) · quote on page: unreachable\n23. [The Good, The Mediocre, The Bad - Review of Club Med Punta Cana, Punta Cana, Dominican Republic - Tripadvisor](https://www.tripadvisor.com/ShowUserReviews-g147293-d149864-r949317090-Club_Med_Punta_Cana-Punta_Cana_La_Altagracia_Province_Dominican_Republic.html) · quote on page: unreachable\n24. [CLUB MED LES BOUCANIERS - MARTINIQUE - 2026 Reviews (Sainte-Anne)](https://www.tripadvisor.com/Hotel_Review-g147331-d151605-Reviews-Club_Med_Les_Boucaniers_Martinique-Sainte_Anne_Arrondissement_of_Le_Marin_Martinique.html) · quote on page: unreachable\n25. [Review: Club Med Seychelles All Inclusive Resort - Luc & June Travel & Food Blog](https://www.lucandjune.com/club-med-seychelles/) · quote on page: found\n26. [Cold start : Big finish. - Review of Club Med Valmorel, Valmorel, France - Tripadvisor](https://www.tripadvisor.com/ShowUserReviews-g562749-d2087816-r1073099098-Club_Med_Valmorel-Valmorel_Les_Avanchers_Valmorel_Savoie_Auvergne_Rhone_Alpes.html) · quote on page: unreachable\n27. [GoMeddo salesforce scheduling boosts ClubMed efficiency and growth](https://www.gomeddo.com/cases/clubmed) · quote on page: found\n28. [NEW Group Itinerary Builder Developed by UrVenue + Club Med to Debut at HITEC - UrVenue](https://www.urvenue.com/news/new-group-itinerary-builder-developed-by-urvenue-club-med-to-debut-at-hitec/) · quote on page: found\n29. [NEW Group Itinerary Builder Developed by UrVenue + Club Med to Debut at HITEC](https://www.hospitalitynet.org/news/4122560.html) · quote on page: found\n30. [Club Med - PMS. Get the software safely and easily.](https://club-med-pms.software.informer.com/) · quote on page: unreachable\n31. [ClubMed Lifestyle Group Advances Global Expansion Through Industry Collaboration and AI Application](https://macaubusiness.com/clubmed-lifestyle-group-advances-global-expansion-through-industry-collaboration-and-ai-application-22/) · quote on page: found\n32. [Club Med empowers customer experience with Azure OpenAI Service](https://www.microsoft.com/en/customers/story/23616-club-med-azure-open-ai-service) · quote on page: found\n33. [How Club Med's 2.1 Billion Data Points Fuels Its AI-Powered Playbook](https://www.pymnts.com/news/artificial-intelligence/2025/club-med-2-1-billion-data-points-ai-powered-playbook/) · quote on page: found\n34. [Club Med picks data integration partner](https://www.marketing-interactive.com/club-med-picks-data-integration-partner) · quote on page: found\n35. [Club Med's All-Inclusive Experience - Lloyds Travel & Cruises](https://lloydstravel.com/2026/07/01/clubmedallinclusive-2-2/) · quote on page: found\n36. [Loyalty Programme](https://www.clubmed.ie/l/loyalty-programme) · quote on page: unreachable\n37. [Great Members Loyalty Programme](https://www.clubmed.co.uk/great-members) · quote on page: not found\n38. [Club Med Great Members: All About the Program 2026](https://milesopedia.com/en/reward-program/club-med-great-members/) · quote on page: found\n39. [All-inclusive Resorts in Cancún](https://www.clubmed.us/r/cancun/y) · quote on page: found\n40. [All-new loyalty program for travel partners rolled out by Club Med - LATTE Australia](https://latteluxurynews.com/2022/03/24/all-new-loyalty-program-for-travel-partners-rolled-out-by-club-med/) · quote on page: found\n\n## How this brief was checked\n\n- Findings kept: 41; removed for having no source: 22; brief lines dropped for citing nothing: 0.\n- Cited quotes found on their page: 32 of 37 checked; not fetched because robots.txt disallows it: 0.\n- News older than 12 months flagged: 0. Topics with no reliable public information: none.\n- Cost 0.140 USD (12 web searches, 8 model calls), 108 s.\n",
+ "findings": [
+  {
+   "id": "F1",
+   "topic": "overview",
+   "claim": "Club Med SAS: Type: Subsidiary, Industry: Tourism, Headquarters: Paris, France Ownership: Its majority owner is Fosun Tourism Group, the leisure unit of Chinese conglomerate Fosun International.",
+   "sources": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Club_Med",
+     "title": "Club Med",
+     "cited_text": "Club Med SAS\n- Type: Subsidiary\n- Industry: Tourism\n- Founded: 27 April 1950; 76 years ago\n- Headquarters: Paris, France\n- Key people: Stéphane Maquai...",
+     "verified": "found"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "F2",
+   "topic": "overview",
+   "claim": "Fosun Tourism Group, the leisure and tourism unit of Chinese conglomerate Fosun International, is courting both domestic and international investors in a move that is in line with its asset-light strategy.",
+   "sources": [
+    {
+     "url": "https://www.scmp.com/business/china-business/article/3255596/club-med-owner-fosun-tourism-courts-investors-return-profitability-days-after-reports-debt-concerns",
+     "title": "Club Med owner Fosun Tourism courts investors on return to profitability days after reports of debt concerns at parent firm",
+     "cited_text": "Fosun Tourism Group, the leisure and tourism unit of Chinese conglomerate Fosun International, is courting both domestic and international investors i...",
+     "verified": "found"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "F3",
+   "topic": "overview",
+   "claim": "Fosun's takeover was completed in 2015, per Fosun completed its acquisition in 2015.",
+   "sources": [
+    {
+     "url": "https://umbrex.com/resources/global-hotel-brand-guide/club-med/",
+     "title": "Hotel Brand Guide: Club Med Overview",
+     "cited_text": "Fosun completed its acquisition in 2015. \n\n",
+     "verified": "unreachable"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "F4",
+   "topic": "overview",
+   "claim": "One 2022 company report says In 2022, Club Med totalled 29,306 employees corresponding to 14,885 full-time equivalents (FTE), while other directories list roughly 28,000 employees (PitchBook) and about 14K (LeadIQ, August 2026).",
+   "sources": [
+    {
+     "url": "https://ns.clubmed.com/amn/2022/Marketing/ENGL-CRSreport2022-Finalversion-26jul23.pdf?_ga=2.228065247.371424059.1718631895-38680451.1718287657",
+     "title": "3 - 2014 MANAGEMENT REPORT 3 CLUB MED PRESENTATION…………………………………….. p 3",
+     "cited_text": "Embodying the Club Med spirit, a combination of professionalism and\n\n2.1 Employment\n\nIn 2022, Club Med totalled 29,306 employees\n\ncorresponding to 14,...",
+     "verified": "unreachable"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "F5",
+   "topic": "overview",
+   "claim": "On footprint, Club Med's own 75th-anniversary release says the brand has 68 premium & luxury resorts in 40 countries worldwide, and these break down into three operating structures: ownership, lease and management contract.",
+   "sources": [
+    {
+     "url": "https://corporate.clubmed/?p=37253",
+     "title": "Club Med Celebrates 75 years of the All-Inclusive Concept - Club Med",
+     "cited_text": "Club Med Celebrates 75 years of the All-Inclusive ConceptClub Med, the pioneer of the all-inclusive concept, marks 75 years of serviceFrom its first b...",
+     "verified": "not found"
+    },
+    {
+     "url": "https://ns.clubmed.com/amn/2022/Marketing/ENGL-CRSreport2022-Finalversion-26jul23.pdf?_ga=2.228065247.371424059.1718631895-38680451.1718287657",
+     "title": "3 - 2014 MANAGEMENT REPORT 3 CLUB MED PRESENTATION…………………………………….. p 3",
+     "cited_text": "These break down into\n\nthree operating structures: ownership, lease and management contract. ",
+     "verified": "unreachable"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "F6",
+   "topic": "overview",
+   "claim": "The sources do point to these offerings within the Club Med ecosystem: Club Med's Great Members loyalty program sits within the brand's commercial ecosystem.",
+   "sources": [
+    {
+     "url": "https://umbrex.com/resources/global-hotel-brand-guide/club-med/",
+     "title": "Hotel Brand Guide: Club Med Overview",
+     "cited_text": "Club Med’s Great Members loyalty program sits within the brand’s commercial ecosystem. ",
+     "verified": "unreachable"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "F7",
+   "topic": "overview",
+   "claim": "Club Med launched its Exclusive Collection in 2007 as its luxury tier, and Club Med offers products such as all-inclusive holiday packages, tours & discovery programs, and cruises aboard the Club Med 2 sailboat.",
+   "sources": [
+    {
+     "url": "https://leadiq.com/c/club-med/5a1d95bb2300005b0084681a/employee-directory",
+     "title": "Club Med Employee Directory, Headcount & Staff",
+     "cited_text": "It employs 10,001+ people and, separately, about 20,000 Gentle Organizers and Gentle Employees work across villages and at multiple headquarters, incl...",
+     "verified": "found"
+    },
+    {
+     "url": "https://www.globaldata.com/company-profile/club-med-sas/",
+     "title": "Club Med SAS Company Profile - Overview - GlobalData",
+     "cited_text": "Club Med offers products such as all-inclusive holiday packages, tours & discovery programs, and cruises aboard the Club Med 2 sailboat. ",
+     "verified": "found"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "F8",
+   "topic": "overview",
+   "claim": "Older brand names such as Club Med Affaires, Valtur, and the value-packaged Club Aquarius appear in historical sources from 1950–1997, so they are not current brands.",
+   "sources": [
+    {
+     "url": "https://www.company-histories.com/Club-Mediterranee-SA-Company-History.html",
+     "title": "Club Mediterranée S.A. — Company History",
+     "cited_text": "Employees\n\n8,008\n\nSki Lodges and Resorts 7011\n\n## The story\n### 1950–1997\nClub Mediterranée resorts operate under several brand names, including the c...",
+     "verified": "found"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "F9",
+   "topic": "overview",
+   "claim": "Recent news (July 2025): Henri Giscard d'Estaing announced his ouster as Club Med president by majority owner Fosun, though Fosun disputes his account.",
+   "sources": [
+    {
+     "url": "https://skift.com/2025/07/16/club-med-boss-says-hes-been-ousted-by-owner-fosun/",
+     "title": "Club Med Boss Says He's Been Ousted by Owner Fosun UPDATED",
+     "cited_text": "## Explore Skift Intelligence\n\n- Henri Giscard d’Estaing announced his ouster as Club Med president by majority owner Fosun, though Fosun disputes his...",
+     "verified": "found"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "F10",
+   "topic": "overview",
+   "claim": "The dispute concerned possible relisting on the Paris Stock Exchange.",
+   "sources": [
+    {
+     "url": "https://skift.com/2025/07/16/club-med-boss-says-hes-been-ousted-by-owner-fosun/",
+     "title": "Club Med Boss Says He's Been Ousted by Owner Fosun UPDATED",
+     "cited_text": "- There are ongoing tensions between Giscard d’Estaing and Fosun regarding Club Med's possible relisting on the Paris Stock Exchange.\n",
+     "verified": "found"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "F11",
+   "topic": "properties",
+   "claim": "Club Med (Club Med SAS, Paris) is the right company: a French all-inclusive resort operator, founded in 1950. Count: A French report from April 2026 says Club Med has reduced the number of villages it operates to about sixty, compared with roughly double a few years ago.",
+   "sources": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Club_Med",
+     "title": "Club Med",
+     "cited_text": "Club Med SAS\n- Type: Subsidiary\n- Industry: Tourism\n- Founded: 27 April 1950; 76 years ago\n- Headquarters: Paris, France\n- Key people: Stéphane Maquai...",
+     "verified": "found"
+    },
+    {
+     "url": "https://www.lechotouristique.com/article/club-med-veut-atteindre-les-100-villages-en-2035",
+     "title": "Club Med veut atteindre les 100 villages en 2035",
+     "cited_text": "En effet, Club Med a réduit son nombre de villages exploités à une soixantaine, contre le double il y a quelques années.\n\n",
+     "verified": "found"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "F12",
+   "topic": "properties",
+   "claim": "A 2026 guide counts differently, listing 61 resorts open for booking on clubmed.fr in October 2026, plus the sailing yacht Club Med 2.",
+   "sources": [
+    {
+     "url": "https://videopardrone.fr/blog/club-med-2026-liste-complete-des-villages-ouverts-et-chefs-de-village/",
+     "title": "Club Med 2026 : liste complète des villages ouverts et chefs",
+     "cited_text": "61 resorts sont ouverts à la réservation sur clubmed.fr en octobre 2026, auxquels s’ajoute le voilier Club Med 2. ",
+     "verified": "found"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "F13",
+   "topic": "properties",
+   "claim": "Other directories list lower figures, such as 59 resorts, so the exact number depends on the source and date. Geography: Beyond the Mediterranean, Asia, and Brazil/Caribbean, the company has said the Mediterranean, Southeast Asia and the Brazil/Caribbean zone are particularly targeted for future villages.",
+   "sources": [
+    {
+     "url": "https://www.resortflock.com/brands/club-med",
+     "title": "All Club Med Resorts: Locations, List & Guide (2026)",
+     "cited_text": "## Club Med Resorts\n## Club Med Locations & Properties (59 Resorts)\n\n### Canada 1 resort\n\nClub Med Michès Playa Esmeralda\n\n## Frequently Asked Questio...",
+     "verified": "not found"
+    },
+    {
+     "url": "https://www.lechotouristique.com/article/club-med-veut-atteindre-les-100-villages-en-2035",
+     "title": "Club Med veut atteindre les 100 villages en 2035",
+     "cited_text": "## Un resort coûte « environ 150 millions d’euros »\nLa Méditerranée, l’Asie du Sud Est et la zone Brésil/Caraïbes sont d’ailleurs particulièrement cib...",
+     "verified": "found"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "F14",
+   "topic": "properties",
+   "claim": "One 2026 list shows 14 villages in France and 3 in Mauritius, with six in the Caribbean. Segments: I could not find a current, authoritative breakdown by segment.",
+   "sources": [
+    {
+     "url": "https://videopardrone.fr/blog/club-med-2026-liste-complete-des-villages-ouverts-et-chefs-de-village/",
+     "title": "Club Med 2026 : liste complète des villages ouverts et chefs",
+     "cited_text": "## 🇫🇷 France – Alpes & Métropole\n14 villages\n\nClub Med Alpes France\n\n## 🇲🇺 Île Maurice\n3 villages\n\n| Village | Région | Type | Saison | Chef de villag...",
+     "verified": "not found"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "F15",
+   "topic": "properties",
+   "claim": "Its own Australian site says over 25 on-snow resorts in Japan, France, Switzerland, Italy, and China, while a separate older article puts more than 20 mountain resorts across Europe, Canada, and Asia.",
+   "sources": [
+    {
+     "url": "https://www.clubmed.com.au/l/snow-holiday-package/ski-resorts",
+     "title": "Most-Loved Ski Destinations and Ski Resorts at Club Med",
+     "cited_text": "With over 25 **on-snow** resorts in Japan, France, Switzerland, Italy, and China, you’ll discover incredible ski fields and rich cultural experiences ...",
+     "verified": "found"
+    },
+    {
+     "url": "https://www.clubmed.us/o/all-inclusive-ski-offer",
+     "title": "All-Inclusive Ski Packages",
+     "cited_text": "Club Med Alps, France Offer *Up to $810 instant savings : Instant Savings Sample of $810 is per adult, based on a 7-night stay, double occupancy in a ...",
+     "verified": "found"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "F16",
+   "topic": "properties",
+   "claim": "Sun-resort counts are also not consistent; one guide cites nine seasonal sun villages in Europe.",
+   "sources": [
+    {
+     "url": "https://voyagesaquaterra.com/club-med-europe",
+     "title": "Voyage Villages Club Med Europe: Au meilleur prix garanti",
+     "cited_text": "## Le Club Med en Europe, en bref\nHors des stations de ski, Club Med exploite neuf villages au soleil en Europe : Opio en Provence, La Palmyre Atlanti...",
+     "verified": "found"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "F17",
+   "topic": "properties",
+   "claim": "The sailing segment is essentially the single yacht, Club Med 2. Direction of change: In April 2026 the company set a goal of 100 villages within 10 years, which would mean roughly 40 openings.",
+   "sources": [
+    {
+     "url": "https://www.traveloffpath.com/club-med-opens-3-new-ski-resorts-plus-new-luxury-sailing-yacht/",
+     "title": "Club Med Opens 3 New Ski Resorts, Plus New Luxury Sailing Yacht - Travel Off Path",
+     "cited_text": "Club Med’s exclusive collection has also launched the multimillion-dollar refresh of its French sailing yacht, the Club Med 2. ",
+     "verified": "found"
+    },
+    {
+     "url": "https://www.lechotouristique.com/article/club-med-veut-atteindre-les-100-villages-en-2035",
+     "title": "Club Med veut atteindre les 100 villages en 2035",
+     "cited_text": "On se donne 10 ans pour atteindre 100 villages » précise son PDG Stéphane Maquaire, nommé à la tête du Club Med en juillet 2025 ...\n\n# Club Med veut a...",
+     "verified": "found"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "F18",
+   "topic": "properties",
+   "claim": "The reported new openings include Club Med South Africa Beach & Safari, which opened on July 4, 2026.",
+   "sources": [
+    {
+     "url": "https://ulysse.com/news/club-med-100-villages-2035",
+     "title": "Club Med 100 villages en 2035 : le plan détaillé - Ulysse",
+     "cited_text": "## Les trois ouvertures 2026 à mettre dans votre radar\n- **Club Med South Africa Beach & Safari** (Afrique du Sud) : ouverture le **4 juillet 2026**. ...",
+     "verified": "not found"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "F19",
+   "topic": "recent_news",
+   "claim": "Paris, 20th April 2026 is the dateline on its 2025 results release.",
+   "sources": [
+    {
+     "url": "https://corporate.clubmed/2025-results/?lang=eng",
+     "title": "2025 Results - Club Med",
+     "cited_text": "Growth remained solid across all segments, with an increase of close to 10% in mountain Resorts, around 4% in sun Resorts, and 5% for the Exclusive Co...",
+     "verified": "found"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "F20",
+   "topic": "recent_news",
+   "claim": "Average Daily Rate (ADR): €241, +5% at constant exchange rates. New village opening (September 2026): Club Med's corporate news page lists the inauguration of its first resort in South Africa, dated 17 September 2026. Upcoming opening (November 2026): Club Med Borneo in Sabah, Malaysia is scheduled to open in November 2026, with a 400-key rainforest property planned. Management contract (date not confirmed): Club Med and Central Group Capital signed a hotel management agreement for a beachfront resort in Koh Samui, Thailand, which is set to open in late 2028.",
+   "sources": [
+    {
+     "url": "https://corporate.clubmed/2025-results/?lang=eng",
+     "title": "2025 Results - Club Med",
+     "cited_text": "- **Business Volume (BV):** €2,222 million, **+4%** at constant exchange rates vs. 2024\n- **Operating Margin:** up year‑on‑year, in line with strategi...",
+     "verified": "found"
+    },
+    {
+     "url": "https://corporate.clubmed/?lang=eng",
+     "title": "Latest News - Club Med Corporate",
+     "cited_text": "## Latest News\n\n17 September 2026\n\n### Club Med inaugurates its first Resort in South Africa, pioneering a new Beach & Safari experience\n\n21 April 202...",
+     "verified": "found"
+    },
+    {
+     "url": "https://www.timeout.com/asia/news/club-med-borneo-is-opening-in-malaysia-in-2026-heres-everything-you-need-to-know-031926",
+     "title": "Club Med Borneo in Sabah Opens in 2026",
+     "cited_text": "This marks the brand’s second resort in Malaysia and a major expansion in the region.\n\n\n\n",
+     "verified": "found"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "F21",
+   "topic": "guest_feedback",
+   "claim": "Guests commend the warm and attentive service, especially for children.",
+   "sources": [
+    {
+     "url": "https://www.tripadvisor.com/Hotel_Review-g1215780-d595720-Reviews-Club_Med_Phuket-Karon_Phuket.html",
+     "title": "CLUB MED PHUKET - Updated 2026 Reviews (Karon)",
+     "cited_text": "Guests commend the warm and attentive service, especially for children. ",
+     "verified": "unreachable"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "F22",
+   "topic": "guest_feedback",
+   "claim": "One reviewer found the food not varied enough for a week and said it got repetitive.",
+   "sources": [
+    {
+     "url": "https://www.consumeraffairs.com/travel/club_med.html",
+     "title": "Club Med Reviews & Complaints",
+     "cited_text": "Food is ok, not enough variety for a week stay it gets repetitive. ",
+     "verified": "unreachable"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "F23",
+   "topic": "guest_feedback",
+   "claim": "Another said the buffet offered a large array of mediocre dishes at every meal.",
+   "sources": [
+    {
+     "url": "https://www.tripadvisor.com/ShowUserReviews-g147293-d149864-r949317090-Club_Med_Punta_Cana-Punta_Cana_La_Altagracia_Province_Dominican_Republic.html",
+     "title": "The Good, The Mediocre, The Bad - Review of Club Med Punta Cana, Punta Cana, Dominican Republic - Tripadvisor",
+     "cited_text": "# The Good, The Mediocre, The Bad\nClub Med Punta Cana seems to have embraced a “quantity over quality” ethos when it comes to food, with a rather huge...",
+     "verified": "unreachable"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "F24",
+   "topic": "guest_feedback",
+   "claim": "Slow or inattentive service appears at some properties. One Martinique reviewer noted occasional slow service, and a Seychelles review described inattentive staff members, from breakfast to dinner.",
+   "sources": [
+    {
+     "url": "https://www.tripadvisor.com/Hotel_Review-g147331-d151605-Reviews-Club_Med_Les_Boucaniers_Martinique-Sainte_Anne_Arrondissement_of_Le_Marin_Martinique.html",
+     "title": "CLUB MED LES BOUCANIERS - MARTINIQUE - 2026 Reviews (Sainte-Anne)",
+     "cited_text": "The service earns high marks for friendliness, though occasional slow service is noted. ",
+     "verified": "unreachable"
+    },
+    {
+     "url": "https://www.lucandjune.com/club-med-seychelles/",
+     "title": "Review: Club Med Seychelles All Inclusive Resort - Luc & June Travel & Food Blog",
+     "cited_text": "A bunch of inattentive staff members, from breakfast to dinner. ",
+     "verified": "found"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "F25",
+   "topic": "guest_feedback",
+   "claim": "Activities are a major draw, while evening entertainment is mixed. Guests highlight sports and daily activities, and one reviewer said there is always an activity to do every hour.",
+   "sources": [
+    {
+     "url": "https://www.tripadvisor.com/ShowUserReviews-g147293-d149864-r949317090-Club_Med_Punta_Cana-Punta_Cana_La_Altagracia_Province_Dominican_Republic.html",
+     "title": "The Good, The Mediocre, The Bad - Review of Club Med Punta Cana, Punta Cana, Dominican Republic - Tripadvisor",
+     "cited_text": "My favrite part is how there is always an activity to do every hour. ",
+     "verified": "unreachable"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "F26",
+   "topic": "guest_feedback",
+   "claim": "Entertainment has drawn criticism at some resorts, with one ski-resort guest calling the evening shows amateurish.",
+   "sources": [
+    {
+     "url": "https://www.tripadvisor.com/ShowUserReviews-g562749-d2087816-r1073099098-Club_Med_Valmorel-Valmorel_Les_Avanchers_Valmorel_Savoie_Auvergne_Rhone_Alpes.html",
+     "title": "Cold start : Big finish. - Review of Club Med Valmorel, Valmorel, France - Tripadvisor",
+     "cited_text": "The evening shows felt amateurish and lacked the quality you would expect from a resort of this reputation.\n\n",
+     "verified": "unreachable"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "F27",
+   "topic": "guest_feedback",
+   "claim": "Value for money and room upkeep are recurring concerns. Many guests find the all-inclusive package worthwhile, but some warn of extra costs.",
+   "sources": [
+    {
+     "url": "https://www.tripadvisor.com/Hotel_Review-g1215780-d595720-Reviews-Club_Med_Phuket-Karon_Phuket.html",
+     "title": "CLUB MED PHUKET - Updated 2026 Reviews (Karon)",
+     "cited_text": "While many find the all-inclusive value worthwhile, some warn of extra costs. ",
+     "verified": "unreachable"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "F28",
+   "topic": "guest_feedback",
+   "claim": "Room condition complaints include occasional maintenance issues at one resort, and some mention aging furnishings at another. Caveats: These findings come from a mix of Tripadvisor, Trip.com, Trustpilot, and travel blog pages covering different Club Med resorts, so they describe the brand's properties as a group rather than one hotel.",
+   "sources": [
+    {
+     "url": "https://www.tripadvisor.com/Hotel_Review-g1215780-d595720-Reviews-Club_Med_Phuket-Karon_Phuket.html",
+     "title": "CLUB MED PHUKET - Updated 2026 Reviews (Karon)",
+     "cited_text": "Cleanliness and room quality earn positive feedback, despite occasional maintenance issues. ",
+     "verified": "unreachable"
+    },
+    {
+     "url": "https://www.tripadvisor.com/Hotel_Review-g147331-d151605-Reviews-Club_Med_Les_Boucaniers_Martinique-Sainte_Anne_Arrondissement_of_Le_Marin_Martinique.html",
+     "title": "CLUB MED LES BOUCANIERS - MARTINIQUE - 2026 Reviews (Sainte-Anne)",
+     "cited_text": "Guests consistently praise the hotel's cleanliness and spacious rooms, though some mention aging furnishings. ",
+     "verified": "unreachable"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "F29",
+   "topic": "technology",
+   "claim": "Events booking (Salesforce-based): GoMeddo built a Salesforce booking app that Club Med uses to schedule its 1,000+ yearly business events across its resorts, the company has been organizing more than 1.000 business events every year at their 80 all-inclusive resort villages.",
+   "sources": [
+    {
+     "url": "https://www.gomeddo.com/cases/clubmed",
+     "title": "GoMeddo salesforce scheduling boosts ClubMed efficiency and growth",
+     "cited_text": "The agents now have a booking engine that allows them to schedule ...\n\n# Delivering the booking platform for 1.000+ business events at ClubMed\nAs one ...",
+     "verified": "found"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "F30",
+   "topic": "technology",
+   "claim": "Property management and group tools: UrVenue's PXMS platform is used by Club Med, which was an early adopter of the PXMS.",
+   "sources": [
+    {
+     "url": "https://www.urvenue.com/news/new-group-itinerary-builder-developed-by-urvenue-club-med-to-debut-at-hitec/",
+     "title": "NEW Group Itinerary Builder Developed by UrVenue + Club Med to Debut at HITEC - UrVenue",
+     "cited_text": "Club Med, an early adopter of the PXMS, has seen significant success with this technology. \n\n",
+     "verified": "found"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "F31",
+   "topic": "technology",
+   "claim": "The Group Itinerary Builder launched in April 2024 at Club Med Cancún.",
+   "sources": [
+    {
+     "url": "https://www.hospitalitynet.org/news/4122560.html",
+     "title": "NEW Group Itinerary Builder Developed by UrVenue + Club Med to Debut at HITEC",
+     "cited_text": "The Group Itinerary Builder launched in April 2024 at Club Med Cancún.\n\n",
+     "verified": "found"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "F32",
+   "topic": "technology",
+   "claim": "A download page also describes a \"Club Med – PMS 8.0\" as a property management system developed by Club Med, but that is a third-party software listing, so treat it as unverified.",
+   "sources": [
+    {
+     "url": "https://club-med-pms.software.informer.com/",
+     "title": "Club Med - PMS. Get the software safely and easily.",
+     "cited_text": "Club Med – PMS is a property management system developed by Club Med to streamline end‐to‐end resort operations and elevate the guest experience. ",
+     "verified": "unreachable"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "F33",
+   "topic": "technology",
+   "claim": "Cloud and AI vendor: In July 2026, Club Med signed a strategic cooperation memorandum with Microsoft at its Paris headquarters.",
+   "sources": [
+    {
+     "url": "https://macaubusiness.com/clubmed-lifestyle-group-advances-global-expansion-through-industry-collaboration-and-ai-application-22/",
+     "title": "ClubMed Lifestyle Group Advances Global Expansion Through Industry Collaboration and AI Application",
+     "cited_text": "In July, Club Med, the core brand of ClubMed Lifestyle Group, signed a strategic cooperation memorandum with Microsoft at its Paris headquarters.\n\n",
+     "verified": "found"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "F34",
+   "topic": "technology",
+   "claim": "Earlier, Club Med's WhatsApp customer assistant was built on Azure OpenAI Service, and this AI assistant now covers 50% of conversations with Brazilian customers.",
+   "sources": [
+    {
+     "url": "https://www.microsoft.com/en/customers/story/23616-club-med-azure-open-ai-service",
+     "title": "Club Med empowers customer experience with Azure OpenAI Service",
+     "cited_text": "This AI assistant now covers 50% of conversations with Brazilian customers, and has been extended to ten additional countries, including France.\n\n",
+     "verified": "found"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "F35",
+   "topic": "technology",
+   "claim": "Other vendors: Club Med has developed specific partnership with Thales and Google to secure our sensitive HR data.",
+   "sources": [
+    {
+     "url": "https://www.pymnts.com/news/artificial-intelligence/2025/club-med-2-1-billion-data-points-ai-powered-playbook/",
+     "title": "How Club Med's 2.1 Billion Data Points Fuels Its AI-Powered Playbook",
+     "cited_text": "Club Med not only aligns with the EU AI Act but also has “developed specific partnership with Thales and Google to secure our sensitive HR data.”",
+     "verified": "found"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "F36",
+   "topic": "technology",
+   "claim": "For marketing data, Club Med appointed Windsor.ai for attribution modelling and data integration duties, though that article is about 7 years old. Gaps: I found no reliable public information on a guest-facing mobile app, a Club Med Passport or loyalty platform vendor, or the consumer booking engine.",
+   "sources": [
+    {
+     "url": "https://www.marketing-interactive.com/club-med-picks-data-integration-partner",
+     "title": "Club Med picks data integration partner",
+     "cited_text": "Travel company Club Med has appointed Windsor.ai for attribution modelling and data integration duties over the next 12 months. ",
+     "verified": "found"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "F37",
+   "topic": "ai_opportunities",
+   "claim": "Activities: Club Med's resorts offer a large activity menu, with more than 60 sports and activities depending on the resort, which gives a recommendation engine a broad catalogue to work from.",
+   "sources": [
+    {
+     "url": "https://lloydstravel.com/2026/07/01/clubmedallinclusive-2-2/",
+     "title": "Club Med's All-Inclusive Experience - Lloyds Travel & Cruises",
+     "cited_text": "Guests can access more than 60 sports and activities depending on the resort.\n\n",
+     "verified": "found"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "F38",
+   "topic": "ai_opportunities",
+   "claim": "Loyalty and pre-arrival touchpoints: Gold and Platinum members get early access to the \"Easy Arrival\" service before their stay, and priority check-in and a dedicated G.O. during it, so these are natural points for personalised pre-stay messaging.",
+   "sources": [
+    {
+     "url": "https://www.clubmed.ie/l/loyalty-programme",
+     "title": "Loyalty Programme",
+     "cited_text": "Before your stay, save time with early access to the \"Easy Arrival\" service. ",
+     "verified": "unreachable"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "F39",
+   "topic": "ai_opportunities",
+   "claim": "Tier thresholds conflict across sources: one UK page lists silver 15 000 points, gold 50 000 points, platinum 95 000 points, while a 2026 guide gives Gold (27,000 points), so confirm current figures with the client.",
+   "sources": [
+    {
+     "url": "https://www.clubmed.co.uk/great-members",
+     "title": "Great Members Loyalty Programme",
+     "cited_text": "Duration\n\n1 night Between 2 and 7 nights 8 nights or more\n\n- turquoise From the time of booking\n- silver 15 000 points\n- gold 50 000 points\n- platinum...",
+     "verified": "not found"
+    },
+    {
+     "url": "https://milesopedia.com/en/reward-program/club-med-great-members/",
+     "title": "Club Med Great Members: All About the Program 2026",
+     "cited_text": "## Club Med Great Members Program (2026 Update)\nClub Med rewards the loyalty of its travelers through its Great Members program, which is based on a c...",
+     "verified": "found"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "F40",
+   "topic": "ai_opportunities",
+   "claim": "Guest service: Reviews on the public review pages repeatedly praise individual staff for friendliness and for remembering guests, and one describes a staff member who would greet us each day and remember us.",
+   "sources": [
+    {
+     "url": "https://www.clubmed.us/r/cancun/y",
+     "title": "All-inclusive Resorts in Cancún",
+     "cited_text": "She would greet us each day and remember us which was lovely, felt right at home and can’t wait to return!\n\n",
+     "verified": "found"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "F41",
+   "topic": "ai_opportunities",
+   "claim": "Multi-channel distribution: Club Med runs a separate loyalty scheme for travel partners, which includes a new Travel Agent Portal and tiered agent rewards.",
+   "sources": [
+    {
+     "url": "https://latteluxurynews.com/2022/03/24/all-new-loyalty-program-for-travel-partners-rolled-out-by-club-med/",
+     "title": "All-new loyalty program for travel partners rolled out by Club Med - LATTE Australia",
+     "cited_text": "The move follows this week’s unveiling of a new Travel Agent Portal.\n\n",
+     "verified": "found"
+    }
+   ],
+   "flags": []
+  }
+ ],
+ "quotes_found": 32,
+ "quotes_checked": 37,
+ "coverage": 0.6507936507936508,
+ "seconds": 108.5,
+ "tokens_in": 138869,
+ "tokens_out": 12754,
+ "searches": 12,
+ "source": "eval/reports/research-2026-10-25-dev.jsonl (run 1)"
+}

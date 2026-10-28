@@ -203,6 +203,7 @@ What exists today is marked **Built**; anything else is **Roadmap**.
 | **PII and tenant isolation** | **Built:** research is about companies, not people: themes from reviews, never individuals; the critic scrubs emails, phones and names; the eval fails any brief with an email or phone number; the share link is redacted. Briefs live in the visitor's browser session only. **Roadmap:** briefs stored per team with an owner (Postgres), so one team's account research isn't visible to another. |
 | **10K → 1M users** | **What breaks first:** web search cost and time. A brief is about 12 searches and 90 seconds, and the researchers run one after another. **Roadmap:** run the six researchers in parallel (about 90 s → 20 s); cache search results per company per day so a second request for the same company is nearly free; a queue for briefs so the app doesn't hold a request open; per-team budgets. |
 | **Monitoring, alerting, hallucination and off-brand detection** | **Built:** every line must cite a kept finding (code), every quote is re-checked on its page, stale news is flagged, the "How this brief was checked" section shows what was removed; per-step time and cost in the app; daily cost cap. **Roadmap:** log each brief's check counts and alert when the share of quotes not found rises; a person labels a weekly sample (the `--sample` script exists) to track the unsupported-claim rate. |
+| **Observability** | **Built (1.1.0):** every live brief and chat question is one trace (OpenTelemetry-shaped IDs); each pipeline step (planner, each researcher, critic, the second pass, writer, checks) is a span with its cost, written to the shared `ops_request_log` / `ops_trace_span` tables with the other hotel apps (PII removed first, batched, 30-day retention). Errors show "Reference: 4f1c9a2e"; the hidden Admin page (`ADMIN_PASSWORD`) finds it and draws the waterfall, with cost today and this month against the caps. Keep-awake visits run nothing. **Roadmap:** an OpenTelemetry exporter to a real collector. |
 | **Failure modes and rollback** | **Built:** a planner failure falls back to a fixed plan; a writer answer that's cut off or not JSON gets one shorter retry, then an empty brief that says so; pages that can't be read are marked "unreachable", not counted as wrong; the cost cap stops research and still writes the brief. Rollback: revert the commit on `main` (Streamlit Cloud redeploys). |
 
 ## Run locally
@@ -242,8 +243,10 @@ docker run --rm -p 8501:8501 --env-file .env account-research
 ### Deploy (free): Streamlit Community Cloud
 
 New app → this repo, branch `main`, main file `app.py`, Python 3.12 → Advanced settings → Secrets:
-`ANTHROPIC_API_KEY = "..."` → Deploy. Set a monthly spending limit in the Anthropic Console first: the app is
-public and every brief uses web search.
+`ANTHROPIC_API_KEY`, `DEMO_CODE` (a long random code you share with people you want to try live runs),
+`ADMIN_PASSWORD` and `DATABASE_URL` (the shared Neon database, for the ops log and a monthly cap that survives
+restarts) → Deploy. Set a monthly spending limit in the Anthropic Console first: the app is public and every brief
+uses web search.
 
 ## Limitations and roadmap
 
@@ -318,8 +321,22 @@ gitleaks. `make check` runs the same locally.
 
 ## Security
 
-Threat model and OWASP Top 10 for LLM applications mapping: [SECURITY.md](SECURITY.md). Secrets only in `.env` or
-host secrets; gitleaks in pre-commit and CI.
+**Spending gates (1.1.0):** every live brief uses paid web search, so the public demo is gated. Anyone can open three
+example briefs (Hyatt, Club Med, Four Seasons) for free: they're real briefs from the saved 2026-10-25 eval run,
+labelled with that date and copied unchanged (`scripts/make_examples.py`, checked by a test). A live run needs the
+`DEMO_CODE`, or is limited to 3 a day across everyone; `MONTHLY_COST_CAP_USD` (default $10) stops live runs for the
+rest of the month, counted from the durable ops log so a restart doesn't reset it.
+
+**Guardrails and red team (1.1.0):** company names and chat questions are checked with the shared guardrails from
+[hotel-ai-platform](https://github.com/vamsialladev/hotel-ai-platform) before any model call or web search. The
+critic now also removes instructions planted in web pages from findings, and drops a finding that's nothing but an
+instruction (0 of 538 saved findings changed). **Red team** ([docs/RED_TEAM.md](docs/RED_TEAM.md), in CI): shared
+corpus 48/48 (four documented differences: no promise or numbered-citation wording; a planted-only note is dropped,
+not cleaned). This app's 11 held-out cases passed 10/11 on the first run. The miss, a question about a CEO's family,
+is listed as a known gap; the critic scrubs personal data from findings anyway.
+
+Threat model (STRIDE), OWASP Top 10 for LLM applications mapping, data classification and incident response:
+[SECURITY.md](SECURITY.md). Secrets only in `.env` or host secrets; gitleaks in pre-commit and CI.
 
 ## Documentation
 

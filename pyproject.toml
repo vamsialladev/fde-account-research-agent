@@ -1,6 +1,6 @@
 [project]
 name = "fde-account-research-agent"
-version = "1.0.0"
+version = "1.1.0"
 description = "Pre-sales: a planner, researchers, a critic and a writer turn a hotel company's name into a cited discovery-prep brief"
 requires-python = ">=3.12"
 license = { text = "MIT" }
