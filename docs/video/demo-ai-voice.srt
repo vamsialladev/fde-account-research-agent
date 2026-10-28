@@ -1,0 +1,108 @@
+1
+00:00:03,000 --> 00:00:07,608
+Before a first client meeting, I spend a couple of hours reading about
+the company.
+
+2
+00:00:08,458 --> 00:00:10,122
+This does the gathering for me,
+
+3
+00:00:10,972 --> 00:00:12,999
+and every line it writes has a source.
+
+4
+00:00:13,849 --> 00:00:18,030
+It's a simulated engagement, and it only reads public web pages.
+
+5
+00:00:18,625 --> 00:00:20,609
+Here's a saved brief for Club Med.
+
+6
+00:00:21,459 --> 00:00:25,256
+A planner wrote six questions, researchers searched the web for each,
+
+7
+00:00:26,106 --> 00:00:28,410
+and a critic in plain code checked the work.
+
+8
+00:00:29,260 --> 00:00:31,266
+Forty-one findings made it through.
+
+9
+00:00:31,859 --> 00:00:33,843
+Every line cites a numbered source.
+
+10
+00:00:34,693 --> 00:00:36,933
+For each source, it went back to the page
+
+11
+00:00:37,783 --> 00:00:39,596
+and checked the quote is really there:
+
+12
+00:00:40,446 --> 00:00:42,302
+thirty-two of thirty-seven here.
+
+13
+00:00:42,921 --> 00:00:44,734
+Then ten questions for the meeting,
+
+14
+00:00:45,584 --> 00:00:48,443
+three use-case guesses with what we don't know yet,
+
+15
+00:00:49,293 --> 00:00:51,469
+and a short email asking for a call.
+
+16
+00:00:53,078 --> 00:00:54,614
+I can ask about the brief.
+
+17
+00:00:55,464 --> 00:00:57,405
+What do guests complain about most?
+
+18
+00:00:58,255 --> 00:01:01,178
+It answers only from the findings, with their IDs.
+
+19
+00:01:02,028 --> 00:01:03,223
+No new searches.
+
+20
+00:01:03,828 --> 00:01:06,772
+A live brief costs about fourteen cents in searches,
+
+21
+00:01:07,622 --> 00:01:10,886
+so without a demo code there are three a day for everyone,
+
+22
+00:01:11,736 --> 00:01:14,467
+and all live runs stop at ten dollars a month.
+
+23
+00:01:15,062 --> 00:01:18,475
+In the eval, seventeen of eighteen briefs pass every check.
+
+24
+00:01:19,325 --> 00:01:21,437
+The weak spot is made-up companies:
+
+25
+00:01:22,287 --> 00:01:25,615
+on the held-out ones it stayed honest in only one of three.
+
+26
+00:01:26,465 --> 00:01:28,321
+That's written down, not hidden.
+
+27
+00:01:28,937 --> 00:01:31,625
+It's live, the link's below, and so is the code.
